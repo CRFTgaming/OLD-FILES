@@ -1,0 +1,75 @@
+groups:
+  guest:
+    default: true
+    permissions:
+    - modifyworld.*
+    - essentials.rules
+    - essentials.help
+    - essentials.afk
+    - essentials.msg
+    - essentials.realname
+    - essentials.mail
+    - essentials.list
+    - essentials.ignore
+    - essentials.seen
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.home
+    - essentials.delhome
+    - essentials.tpa
+    - essentials.tpahere
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warp.[warpname]
+    - essentials.ping
+    - essentials.spawn
+    - essentials.money
+    - sleepvote.vote
+    - sleepvote.propose
+    - autorank.check
+    - autorank.leaderboard
+    options:
+      build: true
+      rank: '1000'
+    prefix: '[&9Guest&f] '
+  member:
+    default: false
+    permissions:
+    inheritance:
+    - guest
+    prefix: '[&3Member&f] '
+  active:
+    default: false
+    permissions:
+    inheritance:
+    - member
+    prefix: '[&3Active&f] '
+  experienced:
+    default: false
+    permissions:
+    inheritance:
+    - active
+    prefix: '[&3Experienced&f] '
+  assistant:
+    default: false
+    permissions:
+    - autorank.exclude
+    inheritance:
+    - experienced
+    prefix: '[&3Assistant&f] '
+  owner:
+    default: false
+    permissions:
+    - autorank.exclude
+    inheritance:
+    - assistant
+    prefix: '[&4Owner&f] '
+users:
+  flamezguru:
+    group:
+    - owner
+  RadicleOne:
+    group:
+    - owner

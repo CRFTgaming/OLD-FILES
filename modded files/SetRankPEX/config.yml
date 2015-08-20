@@ -1,0 +1,7 @@
+allow-ops-changes: true
+broadcast-rank-change: true
+broadcast-message: '+player is now a(n) +group'
+announce-ranks: [Admin, Owner]
+ranks-message: '+rank +player joined the game.'
+version-check: true
+check-interval: 3600

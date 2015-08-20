@@ -1,0 +1,19 @@
+V1DB Changelog:
+Fixed: Players were able to rapidly use the gut action on animals resulting in a dupe.
+Fixed: Players would spawn in the debug lands.
+Fixed: AI should no longer travel into a gun store area (approx 350m).
+Fixed: AI should no longer attack near a gun store.
+Changed: Gun prices at the gun store have changed to add rarity.
+Added: Cool down for placing a spawn beacon, implaced to stop people from bypassing the limitor.
+Changed: Roaming AI are now controlled by the server.
+Changed: AI should now attack civilians and rogue players while in cars.
+Changed: Backpacks are removed on player spawn to prevent units with backpacks spawning with mines, etc.
+Added: HUD system for food/water.
+Changed: Various civilian units were changed to PMC units to enable civilians to use backpacks.
+Fixed: Animals stopped spawning for some reason only rabbits would spawn.
+Added: Weight System, the player inventory is now a weight like system.
+Fixed: Spawn beacons will no longer injure a unit when placed.
+Changed: Gutting system revamped and rabbits can be gutted again.
+Added: JIP System, players can no longer team swap in a 30 minute time period and can no longer regain food when reconnecting.
+Changed: Player Inventory menu - You can now drop multiple times of the selected item and menu updates.
+Changed: Military Offroad Ambulances are now considered military and won't spawn in a ridiculous number.

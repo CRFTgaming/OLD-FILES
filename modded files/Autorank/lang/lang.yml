@@ -1,0 +1,52 @@
+# Language file
+player-not-online: '{0} is not online!'
+autorank-reloaded: '&3Autorank has been reloaded.'
+invalid-format: '&cInvalid format, use {0}.'
+playtime_changed: Changed playtime of {0} to {1}.
+cannot-check-console: '&cCannot check for console!'
+no-permission: '&cYou need ({0}) for that!'
+has-played-for: ' has played for '
+is-in: 'is in '
+no-groups: no groups
+one-group: 'group '
+multiple-groups: 'groups '
+no-next-rankup: and does not have a next rankup
+meets-all-requirements: meets all the requirements for rank {0}
+meets-all-requirements-without-rank-up: meets all the requirements
+ranked-up-now: ' and will now be ranked up.'
+requirements-to-rank: 'Requirements to be ranked up: '
+data-imported: New data has been imported!
+time-requirement: Play for at least {0}.
+world-requirement: Be in {0}.
+vote-requirement: Vote at least {0} times.
+money-requirement: Have at least {0}.
+broken-blocks-requirement: Break at least {0}.
+placed-blocks-requirement: Place at least {0}.
+exp-requirement: Have at least level {0} in exp.
+gamemode-requirement: Be in gamemode {0}.
+item-requirement: Obtain {0}.
+minute-singular: minute
+minute-plural: minutes
+hour-singular: hour
+hour-plural: hours
+day-singular: day
+day-plural: days
+invalid-number: '{0} is not a valid number!'
+player-is-excluded: '{0} is excluded from ranking!'
+mysql-is-not-enabled: MySQL is not enabled and therefore global time does not exist!
+already-completed-requirement: You have already completed this requirement!
+successfully-completed-requirement: 'You have successfully completed requirement &6{0}&a:'
+do-not-meet-requirements-for: 'You do not meet requirements for #&6{0}&c:'
+done-marker: Done
+optional-marker: Optional
+damage-taken-requirement: Take at least {0} damage.
+total-mobs-killed-requirement: Kill at least {0}.
+location-requirement: Be at {0}.
+factions-power-requirement: Have at least {0} power in your faction.
+player-kills-requirement: Kill at least {0} player(s).
+global-time-requirement: Play for at least {0} on any of the servers.
+player-is-invalid: '&6{0}&4 has never been logged before.'
+total-time-requirement: Be with this server for at least {0}.
+blocks-moved-requirement: Travel at least {0} {1}.
+world-guard-region-requirement: Be in region '{0}'.
+mcmmo-skill-level-requirement: Have at least level {0} in {1}.

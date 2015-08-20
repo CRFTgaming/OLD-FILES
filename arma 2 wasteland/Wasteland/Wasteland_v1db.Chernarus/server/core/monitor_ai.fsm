@@ -1,0 +1,256 @@
+/*%FSM<COMPILE "D:\Bohemia Interactive\Tools\FSM Editor Personal Edition\scriptedFSM.cfg, AI Spawner">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"init",0,250,-24.168451,-41.984581,65.831551,8.015419,0.000000,"init"};
+item1[] = {"true",8,218,-24.450939,41.570251,65.549057,91.570251,0.000000,"true"};
+item2[] = {"Fetch_players",2,250,-24.450939,127.179092,65.549080,177.179092,0.000000,"Fetch players"};
+item3[] = {"true",4,218,-25.330595,201.069519,64.669403,251.069519,0.000000,"true"};
+item4[] = {"Spawn",2,4346,-25.483702,286.089172,64.516312,336.089172,0.000000,"Spawn"};
+item5[] = {"true",8,218,-39.137833,368.136536,50.862167,418.136536,0.000000,"true"};
+item6[] = {"Lets_move",2,250,-163.069122,396.021057,-73.069099,446.021057,0.000000,"Lets move"};
+item7[] = {"End_",4,218,-289.065735,370.202087,-199.065964,420.202087,0.000000,"End?"};
+item8[] = {"Despawn",2,250,-334.172943,251.434570,-244.172928,301.434692,0.000000,"Despawn"};
+item9[] = {"Check_Time",4,218,-336.238586,126.470428,-246.238586,176.470428,0.000000,"Check Time"};
+link0[] = {0,1};
+link1[] = {1,2};
+link2[] = {2,3};
+link3[] = {3,4};
+link4[] = {4,5};
+link5[] = {5,6};
+link6[] = {6,7};
+link7[] = {7,8};
+link8[] = {8,9};
+link9[] = {9,2};
+globals[] = {0.000000,0,0,0,0,640,480,1,18,6316128,1,-468.873444,278.845428,514.314941,-117.734741,1031,911,1};
+window[] = {2,-1,-1,-32000,-32000,897,725,1897,140,3,1049};
+*//*%FSM</HEAD>*/
+class FSM
+{
+  fsmName = "AI Spawner";
+  class States
+  {
+    /*%FSM<STATE "init">*/
+    class init
+    {
+      name = "init";
+      init = /*%FSM<STATEINIT""">*/"private[""_players"",""_timeNow""];" \n
+       "_timeNow = time;" \n
+       "_interval = 60 * 20;" \n
+       "" \n
+       "_aiMax = 60; //Maximum AI" \n
+       "" \n
+       "_group = createGroup resistance;" \n
+       "_center = createCenter resistance;" \n
+       "" \n
+       "_spawns =" \n
+       " [[2142.13,7927.54,0.00161743]," \n
+       "[4742.47,12947.8,0.00184631]," \n
+       "[11028.1,3741.11,0.00146484]," \n
+       "[8118.05,9296.03,0.00170898]];"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "true">*/
+        class true
+        {
+          priority = 0.000000;
+          to="Fetch_players";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Fetch_players">*/
+    class Fetch_players
+    {
+      name = "Fetch_players";
+      init = /*%FSM<STATEINIT""">*/"_players = [];" \n
+       "{" \n
+       "	if(isPlayer _x) then" \n
+       "	{" \n
+       "		_players set[count _players,_x];" \n
+       "	};" \n
+       "} foreach playableUnits;" \n
+       "" \n
+       "_end = false;" \n
+       "" \n
+       "_aiCount = {!isPlayer _x && side _x == resistance;} count allUnits; //fetch AI Count" \n
+       "_timeNow = time;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "true">*/
+        class true
+        {
+          priority = 0.000000;
+          to="Spawn";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"_aiCount < _aiMax"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Spawn">*/
+    class Spawn
+    {
+      name = "Spawn";
+      init = /*%FSM<STATEINIT""">*/"_aiArray = [""GUE_Soldier_CO"",""GUE_Soldier_GL"",""GUE_Soldier_AT"",""GUE_Soldier_AR"",""GUE_Soldier_2"",""GUE_Soldier_1""];" \n
+       "" \n
+       "_spawnPos = _spawns call BIS_fnc_selectRandom;" \n
+       "_targets = _players call BIS_fnc_selectRandom;" \n
+       "_target = vehicle _targets;" \n
+       "" \n
+       "//Let's create our squad" \n
+       "{" \n
+       "	_temp = _group createunit [_x,_spawnPos, [], 0, ""Form""];" \n
+       "	_accur = random 3;" \n
+       "	_temp setUnitRecoilCoefficient _accur;" \n
+       "	[_temp] spawn waste_ai_fnc;" \n
+       "} foreach _aiArray;" \n
+       "" \n
+       "diag_log format[""Server: AI have been spawned. POS: %1"",_spawnPos];" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "true">*/
+        class true
+        {
+          priority = 0.000000;
+          to="Lets_move";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Lets_move">*/
+    class Lets_move
+    {
+      name = "Lets_move";
+      init = /*%FSM<STATEINIT""">*/"while {(count units _group) >=3} do" \n
+       "{" \n
+       "	_check = time;" \n
+       "" \n
+       "	if((!alive _target) OR (isNull (_target))) then" \n
+       "	{" \n
+       "	//Search for new target, if no actual player within 400m lets destroy this group" \n
+       "		_target = ObjNull;" \n
+       "		_targets = leader(_group) nearEntities [""Man"", 1200];" \n
+       "		{" \n
+       "			if((isPlayer _x) AND (alive _x) AND (!isNull _target)) then" \n
+       "			{" \n
+       "				if(isNull _target) then {_target = _x;};" \n
+       "			};" \n
+       "		} foreach _targets;" \n
+       "" \n
+       "		if(isNull _target) then" \n
+       "		{" \n
+       "			{deleteVehicle _x;} foreach units _group;" \n
+       "		};	" \n
+       "	}" \n
+       "	else" \n
+       "	{" \n
+       "		_bool = false;" \n
+       "		" \n
+       "		{" \n
+       "			_distance = (getMarkerPos _x) distance player;" \n
+       "			if(_distance < 400) then {" \n
+       "				_bool = true;" \n
+       "			};" \n
+       "		} foreach [""gunshop_m"",""gunshop_m_2"",""gunshop_m_3"",""gunshop_m_4""];" \n
+       "		" \n
+       "		if(!_bool) then" \n
+       "		{" \n
+       "		" \n
+       "			if(leader(_group) distance _target > 450) then" \n
+       "			{" \n
+       "				_group setSpeedMode ""NORMAL"";" \n
+       "			} else" \n
+       "			{" \n
+       "				_group setSpeedMode ""LIMITED"";" \n
+       "			};" \n
+       "" \n
+       "			if((leader(_group) knowsAbout _target) > 2.5) then" \n
+       "			{" \n
+       "				if(leader(_group) distance _target > 250) then" \n
+       "				{" \n
+       "					if(leader(_group) distance _target < 120) then { leader(_group) reveal _target;};" \n
+       "					_group move getPos _target;" \n
+       "				}" \n
+       "				else" \n
+       "				{" \n
+       "					{" \n
+       "						commandStop _x;" \n
+       "					} foreach units _group;" \n
+       "				};" \n
+       "			}" \n
+       "			else" \n
+       "			{" \n
+       "				if(leader(_group) distance _target < 120) then { leader(_group) reveal _target;};" \n
+       "				_group move getPos _target;" \n
+       "			};" \n
+       "		};" \n
+       "	};" \n
+       "	waitUntil {(time - _check) > 10};" \n
+       "};" \n
+       "" \n
+       "_end = true;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "End_">*/
+        class End_
+        {
+          priority = 0.000000;
+          to="Despawn";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"_end"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Despawn">*/
+    class Despawn
+    {
+      name = "Despawn";
+      init = /*%FSM<STATEINIT""">*/"if((count units _group) > 1) then " \n
+       "{" \n
+       "	{deleteVehicle _x;} foreach units _group;" \n
+       "};" \n
+       "" \n
+       "diag_log(""Server: AI have been despawned, will check back later."");" \n
+       "" \n
+       "_end = false;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Check_Time">*/
+        class Check_Time
+        {
+          priority = 0.000000;
+          to="Fetch_players";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"((time - _timeNow) > _interval)"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+  };
+  initState="init";
+  finalStates[] =
+  {
+  };
+};
+/*%FSM</COMPILE>*/

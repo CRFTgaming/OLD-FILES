@@ -1,0 +1,933 @@
+
+
+=====================================================================
+== C:\Program Files (x86)\Steam\steamapps\common\Arma 2 Operation Arrowhead\arma2oaserver.exe
+== arma2oaserver.exe  -port=2302 "-config=masterconfig\config.cfg" "-cfg=masterconfig\basic.cfg" "-profiles=masterconfig" "-name=masterconfig" "-mod=@DayZ_Epoch;@DayZ_Epoch_Server;" -cpuCount=4 -exThreads=7 -malloc=tbb4malloc_bi
+=====================================================================
+Exe timestamp: 2015/01/31 13:29:29
+Current time:  2015/07/18 23:28:11
+
+Version 1.63.125548
+Item STR_EQUIP_NAME_41 listed twice
+Item STR_EQUIP_DESC_41 listed twice
+Updating base class ->NonStrategic, by Ca\config.bin/CfgVehicles/HouseBase/
+Updating base class ->HouseBase, by Ca\config.bin/CfgVehicles/Ruins/
+Updating base class ->DestructionEffects, by Ca\config.bin/CfgVehicles/House/DestructionEffects/
+Updating base class ->FlagCarrierCore, by ca\ca_pmc\config.bin/CfgVehicles/FlagCarrier/
+Updating base class ->VehicleMagazine, by ca\weapons\config.bin/CfgMagazines/14Rnd_FFAR/
+Updating base class ->PistolCore, by ca\weapons\config.bin/cfgWeapons/Pistol/
+Updating base class ->LauncherCore, by ca\weapons\config.bin/cfgWeapons/RocketPods/
+Updating base class ->RocketPods, by ca\weapons\config.bin/cfgWeapons/FFARLauncher/
+Updating base class ->Default, by ca\weapons\config.bin/cfgWeapons/ItemCore/
+Updating base class ->Citizen, by ca\characters2\config.bin/CfgVehicles/Citizen1/
+Updating base class ->SkodaBase, by ca\wheeled\config.bin/CfgVehicles/car_sedan/
+Updating base class ->UH60_Base, by ca\air\config.bin/CfgVehicles/MH60S/
+Updating base class ->House, by ca\misc3\config.bin/CfgVehicles/Land_Fire/
+Updating base class ->House, by ca\misc3\config.bin/CfgVehicles/Land_A_tent/
+Updating base class ->Camp_base, by ca\misc3\config.bin/CfgVehicles/ACamp/
+Updating base class ->Car, by ca\wheeled2\lada\config.bin/CfgVehicles/Lada_base/
+Updating base class StreetLamp_EP1->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_Lamp_Small_EP1/
+Updating base class StreetLamp_EP1->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_Lamp_Street1_EP1/
+Updating base class StreetLamp_EP1->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_Lamp_Street2_EP1/
+Updating base class StreetLamp_EP1->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_Lampa_Ind_EP1/
+Updating base class StreetLamp_EP1->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_PowLines_Conc2L_EP1/
+Updating base class StreetLamp_BaseMediumOrange->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_lampa_sidl/
+Updating base class StreetLamp_BaseMediumOrange->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_lampa_sidl_2/
+Updating base class StreetLamp_BaseMediumOrange->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_lampa_sidl_3/
+Updating base class StreetLamp_BaseWeakYellow->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_lampa_ind/
+Updating base class StreetLamp_BaseWeakYellow->StreetLamp, by z\addons\dayz_code\config.bin/CfgNonAIVehicles/Land_lampa_ind_zebr/
+Updating base class RscStandardDisplay->, by z\addons\dayz_code\config.bin/RscDisplayStart/
+Updating base class RscShortcutButton->RscShortcutButtonMain, by z\addons\dayz_code\config.bin/RscDisplayMain/controls/CA_Exit/
+Updating base class RscText->, by z\addons\dayz_code\config.bin/RscTitles/Default/
+Updating base class zZombie_Base->zZombie_new_Base, by z\addons\dayz_code\config.bin/CfgVehicles/z_villager1/
+Updating base class zZombie_Base->zZombie_new_Base, by z\addons\dayz_code\config.bin/CfgVehicles/z_worker1/
+Updating base class Soldier_Crew_PMC->Soldier_Bodyguard_M4_PMC, by z\addons\dayz_code\config.bin/CfgVehicles/SurvivorW2_DZ/
+Updating base class HighCommand->Logic, by z\addons\dayz_code\config.bin/CfgVehicles/HighCommandSubordinate/
+Updating base class ->ViewOptics, by z\addons\dayz_code\config.bin/CfgVehicles/Mi17_base/Turrets/MainTurret/ViewOptics/
+Updating base class HouseBase->, by z\addons\dayz_code\config.bin/CfgVehicles/House/
+Updating base class NonStrategic->BuiltItems, by z\addons\dayz_code\config.bin/CfgVehicles/Fort_RazorWire/
+Updating base class MeleeHatchet->MeleeWeapon, by z\addons\dayz_code\config.bin/CfgWeapons/MeleeCrowbar/
+Updating base class VehicleMagazine->CA_Magazine, by z\addons\dayz_code\config.bin/CfgMagazines/29Rnd_30mm_AGS30/
+Updating base class VehicleMagazine->CA_Magazine, by z\addons\dayz_code\config.bin/CfgMagazines/48Rnd_40mm_MK19/
+Updating base class 4000Rnd_762x51_M134->CA_Magazine, by z\addons\dayz_code\config.bin/CfgMagazines/2000Rnd_762x51_M134/
+Updating base class VehicleMagazine->CA_Magazine, by z\addons\dayz_code\config.bin/CfgMagazines/100Rnd_127x99_M2/
+Updating base class VehicleMagazine->CA_Magazine, by z\addons\dayz_code\config.bin/CfgMagazines/50Rnd_127x107_DSHKM/
+Updating base class Hatchet_Swing->Melee_Swing, by z\addons\dayz_code\config.bin/CfgMagazines/crowbar_swing/
+Updating base class CA_Magazine->Melee_Swing, by z\addons\dayz_code\config.bin/CfgMagazines/Hatchet_Swing/
+Updating base class Land_HouseV_1I2->House, by zero_buildings\config.cpp/CfgVehicles/Land_HouseV_1L2/
+Updating base class Land_HouseV_1I2->House, by zero_buildings\config.cpp/CfgVehicles/Land_HouseV_3I3/
+Updating base class ->Plane, by ca\air2\mv22\config.bin/CfgVehicles/MV22/
+Updating base class ViewOptics->, by ca\air2\uh1y\config.bin/CfgVehicles/UH1_Base/Turrets/MainTurret/ViewOptics/
+Updating base class ->HouseBase, by ca\misc_e\config.bin/CfgVehicles/House/
+Updating base class ->Land_CamoNet_EAST, by ca\misc_e\config.bin/CfgVehicles/Land_CamoNet_EAST_EP1/
+Updating base class ->Land_CamoNetB_EAST, by ca\misc_e\config.bin/CfgVehicles/Land_CamoNetB_EAST_EP1/
+Updating base class ->Sign_1L_Noentry, by ca\misc_e\config.bin/CfgVehicles/Sign_1L_Noentry_EP1/
+Updating base class ->Sign_circle, by ca\misc_e\config.bin/CfgVehicles/Helper_Base_EP1/
+Updating base class ->Rifle, by ca\weapons_baf\config.bin/cfgWeapons/BAF_AS50_scoped/
+Updating base class ->Rifle, by ca\weapons_e\config.bin/cfgWeapons/M60A4_EP1/
+Updating base class ->M249, by ca\weapons_e\config.bin/cfgWeapons/M249_EP1/
+Updating base class ->M249, by ca\weapons_e\config.bin/cfgWeapons/M249_m145_EP1/
+Updating base class ->m107, by ca\weapons_e\m107\config.bin/CfgWeapons/m107_TWS_EP1/
+Updating base class ->M240, by ca\weapons_e\m240\config.bin/CfgWeapons/m240_scoped_EP1/
+Updating base class ->V3S_Base, by ca\wheeled_e\v3s\config.bin/CfgVehicles/V3S_Base_EP1/
+Updating base class ->V3S_Base_EP1, by ca\wheeled_e\v3s\config.bin/CfgVehicles/V3S_Refuel_TK_GUE_EP1/
+Updating base class House->DZE_OpenHouse, by warehouse\config.bin/CfgVehicles/Land_Ind_Pec_03/
+Updating base class ->C130J_base, by ca\air_e\config.bin/CfgVehicles/C130J_US_EP1/
+Updating base class ->Helicopter, by ca\air_e\ah6j\config.bin/CfgVehicles/AH6_Base_EP1/
+Updating base class ->Plane, by ca\air_e\an2\config.bin/CfgVehicles/An2_Base_EP1/
+Updating base class ->CH47_base_EP1, by ca\air_e\ch47\config.bin/CfgVehicles/CH_47F_EP1/
+Updating base class ViewOptics->, by ca\air_e\uh1h\config.bin/CfgVehicles/UH1H_base/Turrets/MainTurret/ViewOptics/
+Updating base class ->Soldier_Base_PMC, by ca\characters_pmc\config.bin/cfgVehicles/Soldier_Crew_PMC/
+Updating base class ->Soldier_Base_PMC, by ca\characters_pmc\config.bin/cfgVehicles/Soldier_TL_PMC/
+Updating base class ->Soldier_Base_PMC, by ca\characters_pmc\config.bin/cfgVehicles/Soldier_Bodyguard_M4_PMC/
+Updating base class ->Soldier_Base_PMC, by ca\characters_pmc\config.bin/cfgVehicles/Soldier_Bodyguard_AA12_PMC/
+Updating base class ->BAF_Soldier_MTP, by ca\characters_w_baf\config.bin/CfgVehicles/BAF_Soldier_W/
+Updating base class ->BAF_Soldier_L_MTP, by ca\characters_w_baf\config.bin/CfgVehicles/BAF_Soldier_L_W/
+Updating base class ->BAF_Soldier_Officer_MTP, by ca\characters_w_baf\config.bin/CfgVehicles/BAF_Soldier_Officer_W/
+Updating base class ->BAF_Soldier_SniperH_MTP, by ca\characters_w_baf\config.bin/CfgVehicles/BAF_Soldier_SniperH_W/
+Updating base class ->M113Ambul_Base, by ca\tracked_e\m113\config.bin/CfgVehicles/M113Ambul_UN_EP1/
+Updating base class ->M113_Base, by ca\tracked_e\m113\config.bin/CfgVehicles/M113_UN_EP1/
+Updating base class ->M113Ambul_Base, by ca\tracked_e\m113\config.bin/CfgVehicles/M113Ambul_TK_EP1/
+Updating base class ->M113_Base, by ca\tracked_e\m113\config.bin/CfgVehicles/M113_TK_EP1/
+Updating base class ->Helicopter, by ca\air_d_baf\config.bin/CfgVehicles/BAF_Merlin_HC3_D/
+23:32:49 Mission DayZ_Epoch_11.Chernarus: Number of roles (100) is different from 'description.ext::Header::maxPlayer' (50)
+23:33:38 Mission DayZ_Epoch_11.Chernarus: Number of roles (100) is different from 'description.ext::Header::maxPlayer' (50)
+23:33:39 Server error: Player without identity Casey (id 639476292)
+23:33:39 Server error: Player without identity Casey (id 639476292)
+23:33:39 Server error: Player without identity Casey (id 639476292)
+23:33:39 Server error: Player without identity Casey (id 639476292)
+23:33:39 Server error: Player without identity Casey (id 639476292)
+23:33:39 Server error: Player without identity Casey (id 639476292)
+23:33:39 Server error: Player without identity Casey (id 639476292)
+23:33:39 Server error: Player without identity Casey (id 639476292)
+23:33:39 Server error: Player without identity Casey (id 639476292)
+23:33:39 Server error: Player without identity Casey (id 639476292)
+23:33:39 Server error: Player without identity Casey (id 639476292)
+23:33:39 Server error: Player without identity Casey (id 639476292)
+23:33:39 Server error: Player without identity Casey (id 639476292)
+23:33:45 Strange convex component81 in zero_buildings\models\housev_3i3_i.p3d:geometryFire
+23:33:47 Strange convex component288 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component289 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component290 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component291 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component292 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component293 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component294 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component295 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component296 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component297 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component298 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component299 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component300 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component301 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component302 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component303 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component304 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component305 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component306 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component307 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component308 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component309 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component310 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component311 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component312 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component313 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component314 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component315 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component316 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component317 in warehouse\models\warehouse.p3d:geometry
+23:33:47 Strange convex component252 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component253 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component254 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component255 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component256 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component257 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component258 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component259 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component260 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component261 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component262 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component263 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component264 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component265 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component266 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component267 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component268 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component269 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component270 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component271 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component272 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component273 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component274 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component275 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component276 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component277 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component278 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component279 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component280 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component281 in warehouse\models\warehouse.p3d:geometryFire
+23:33:47 Strange convex component249 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component250 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component251 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component252 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component253 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component254 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component255 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component256 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component257 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component258 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component259 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component260 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component261 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component262 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component263 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component264 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component265 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component266 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component267 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component268 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component269 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component270 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component271 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component272 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component273 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component274 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component275 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component276 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component277 in warehouse\models\warehouse.p3d:geometryView
+23:33:47 Strange convex component278 in warehouse\models\warehouse.p3d:geometryView
+23:33:51 Warning: looped for animation: ca\anims\characters\data\anim\sdr\mov\erc\wlk\non\non\amovpercmwlksnonwnondf.rtm differs (looped now 0)! MoveName: amovpercmstpsnonwnondnon_amovpercmstpsraswpstdnon
+23:33:51 Warning: looped for animation: ca\anims\characters\data\anim\sdr\mov\erc\wlk\non\non\amovpercmwlksnonwnondf.rtm differs (looped now 1)! MoveName: amovpercmrunsnonwbindf_rfl
+23:33:53 "DayZ Epoch: PRELOAD Functions\init [[<No group>:0 (FunctionsManager)],any]"
+23:33:53 "DayZ Epoch: MPframework inited"
+23:33:55 Strange convex component93 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component94 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component95 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component96 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component99 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component100 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component101 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component102 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component103 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component104 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component105 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component106 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component107 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component108 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component109 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component110 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component111 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component112 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component113 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component114 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component115 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component116 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component117 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component118 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component119 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component120 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component121 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component122 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component123 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component124 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component125 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component126 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component127 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component128 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component129 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component130 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component131 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component132 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component133 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:33:55 Strange convex component134 in zero_buildings\models\mil_house_i.p3d:geometryView
+23:34:09 "infiSTAR.de - Waiting for BIS_fnc_init..."
+23:34:09 "infiSTAR.de - BIS_fnc_init done - AntiHack STARTING...!"
+23:34:09 Warning Message: Script low_admins.sqf not found
+23:34:09 Warning Message: Script normal_admins.sqf not found
+23:34:09 Warning Message: Script super_admins.sqf not found
+23:34:09 Warning Message: Script blacklist.sqf not found
+23:34:09 "infiSTAR.de - iproductVersion: 28092014IAHAT335E | Server productVersion: ["ArmA 2 OA","ArmA2OA",163,125548] | worldName: Chernarus | dayz_instance: 11 | missionName: DayZ_Epoch_11"
+23:34:09 "infiSTAR.de - _fnc_RandomGen: {
+_arr = ["H","O","r","9","V","V","B","C","u","i","y","w","c","S","e","7","G","l","l","j","Y","W","N","g","7","0","q","H","Q","u"];
+_gen = "p";
+for "_i" from 1 to 8 do {_gen = _gen + (_arr select (random ((count _arr)-1)));};
+_gen = _gen + '_' + _gen;
+_gen
+}"
+23:34:09 "infiSTAR.de - _randvar1: pGcHVGuq9_pGcHVGuq9"
+23:34:09 "infiSTAR.de - _randvar2: pwQlVgVq0_pwQlVgVq0"
+23:34:09 "infiSTAR.de - _randvar3: prHqV7wOS_prHqV7wOS"
+23:34:09 "infiSTAR.de - _randvar4: pywQHuqYC_pywQHuqYC"
+23:34:09 "infiSTAR.de - _randvar5: pYBccqjgO_pYBccqjgO"
+23:34:09 "infiSTAR.de - _randvar6: pVciSlHHw_pVciSlHHw"
+23:34:09 "infiSTAR.de - _randvar8: p7VcuHrgw_p7VcuHrgw"
+23:34:09 "infiSTAR.de - _randvar9: pV900cHu7_pV900cHu7"
+23:34:09 "infiSTAR.de - _randvar11: p7Y9ygqCG_p7Y9ygqCG"
+23:34:09 "infiSTAR.de - _randvar12: pHViQecQH_pHViQecQH"
+23:34:09 "infiSTAR.de - _randvar13: p7wuuyHCi_p7wuuyHCi"
+23:34:09 "infiSTAR.de - _randvar19: pu0CQglVq_pu0CQglVq"
+23:34:09 "infiSTAR.de - _randvar20: pBCNjg9yj_pBCNjg9yj"
+23:34:09 "infiSTAR.de - _randvar26: p7Qi7q7ie_p7Qi7q7ie"
+23:34:09 "infiSTAR.de - _randvar27: p0YNqjeWu_p0YNqjeWu"
+23:34:09 "infiSTAR.de - _randvar27a: pcGg77iBG_pcGg77iBG"
+23:34:09 "infiSTAR.de - _randvar28: prcVH99j7_prcVH99j7"
+23:34:09 "infiSTAR.de - _randvar29: py07qWiN7_py07qWiN7"
+23:34:09 "infiSTAR.de - _randvar30: pWCQYc0qY_pWCQYc0qY"
+23:34:09 "infiSTAR.de - _randvar10: PVAHR_0_fhxsixog_PVAHR_0_fhxsixog"
+23:34:09 "infiSTAR.de - infiSTAR_DLL_PATH: "
+23:34:09 "infiSTAR.de - AntiHack LOADED!"
+23:34:09 "infiSTAR.de - CREATING AdminMenu"
+23:34:09 "infiSTAR.de - ADDING PublicVariableEventHandlers"
+23:34:09 "infiSTAR.de - AntiHack FULLY LOADED"
+23:34:11 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:11 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:11 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:11 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:11 class HitPoints::HitLF2Wheel not found in policecar
+23:34:11 class HitPoints::HitRF2Wheel not found in policecar
+23:34:11 class HitPoints::HitLMWheel not found in policecar
+23:34:11 class HitPoints::HitRMWheel not found in policecar
+23:34:12 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:12 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:12 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:12 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:12 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:12 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:12 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:12 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:12 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:12 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:12 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:12 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:12 "Res3tting B!S effects..."
+23:34:13 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:13 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:13 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:13 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:13 MAP_Dum_mesto3test: Hit1 - unknown animation source Hit1
+23:34:13 MAP_Dum_mesto3test: Hit2 - unknown animation source Hit2
+23:34:13 MAP_Dum_mesto3test: Hit3 - unknown animation source Hit3
+23:34:13 MAP_Dum_mesto3test: Hit4 - unknown animation source Hit4
+23:34:13 MAP_Dum_mesto3test: Hit5 - unknown animation source Hit5
+23:34:13 MAP_Dum_mesto3test: Hit6 - unknown animation source Hit6
+23:34:13 MAP_Dum_mesto3test: Hit7 - unknown animation source Hit7
+23:34:13 MAP_Dum_mesto3test: Hit8 - unknown animation source Hit8
+23:34:13 MAP_Dum_mesto3test: Hit9 - unknown animation source Hit9
+23:34:13 MAP_Dum_mesto3test: Hit10 - unknown animation source Hit10
+23:34:13 MAP_Dum_mesto3test: Hit11 - unknown animation source Hit11
+23:34:13 MAP_Dum_mesto3test: Hit12 - unknown animation source Hit12
+23:34:13 MAP_Dum_mesto3test: HitS - unknown animation source HitS
+23:34:13 Cannot create non-ai vehicle Land_Misc_Cargo2A,
+23:34:14 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:14 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:14 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:14 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:14 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:14 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:14 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:14 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:14 "\z\addons\dayz_code\system\REsec.sqf:Monitoring Remote Exe..."
+23:34:14 "[Random_Weed_Farm]: waiting for BIS_fnc_findSafePos"
+23:34:14 "[Random_Weed_Farm]: Function loaded ... Server Building 5 Weed Farm(s)"
+23:34:14 "[Random_Weed_Farm]: Found Location for a farm (060063) [6083.4,8962.25] with 7 plants"
+23:34:14 "[Random_Weed_Farm]: Found Location for a farm (083088) [8301.19,6508.96] with 4 plants"
+23:34:14 "[Random_Weed_Farm]: Found Location for a farm (055074) [5584.98,7869.51] with 9 plants"
+23:34:14 "[Random_Weed_Farm]: Found Location for a farm (104106) [10403.5,4733.63] with 7 plants"
+23:34:14 "[Random_Weed_Farm]: Found Location for a farm (066059) [6672.62,9420.99] with 4 plants"
+23:34:21 Warning: z\addons\dayz_communityassets\models\compass.p3d:0 Error while trying to generate ST for points: 863, 853, 852
+23:34:22 ca\misc\pallets_column.p3d: No geometry and no visual shape
+23:34:22 ca\misc\pallets_column.p3d: No geometry and no visual shape
+23:34:22 ca\misc\pallets_column.p3d: No geometry and no visual shape
+23:34:22 ca\misc\pallets_column.p3d: No geometry and no visual shape
+23:34:22 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:22 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:22 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:22 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:22 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:22 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:22 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:22 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:22 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:22 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:22 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:22 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\buildings2\a_advertisingcolumn\a_advertcolumn.p3d: No geometry and no visual shape
+23:34:23 ca\buildings2\a_advertisingcolumn\a_advertcolumn.p3d: No geometry and no visual shape
+23:34:23 ca\buildings2\a_advertisingcolumn\a_advertcolumn.p3d: No geometry and no visual shape
+23:34:23 ca\buildings2\a_advertisingcolumn\a_advertcolumn.p3d: No geometry and no visual shape
+23:34:23 ca\misc\pallets_column.p3d: No geometry and no visual shape
+23:34:23 ca\misc\pallets_column.p3d: No geometry and no visual shape
+23:34:23 ca\misc\pallets_column.p3d: No geometry and no visual shape
+23:34:23 ca\misc\pallets_column.p3d: No geometry and no visual shape
+23:34:23 ca\misc\pallets_column.p3d: No geometry and no visual shape
+23:34:23 ca\misc\pallets_column.p3d: No geometry and no visual shape
+23:34:23 ca\misc\pallets_column.p3d: No geometry and no visual shape
+23:34:23 ca\misc\pallets_column.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 ca\structures\ruins\glass_cullet_01.p3d: No geometry and no visual shape
+23:34:23 "HIVE: Starting"
+23:34:23 "HIVE: trying to get objects"
+23:34:23 "[Random_Weed_Farm]: Weed Farm(s) Done ... Broadcasting locations for clients"
+23:34:24 "HIVE: found 905 objects"
+23:34:24 "HIVE: Commence Object Streaming..."
+23:34:25 ca\misc\pallets_column.p3d: No geometry and no visual shape
+23:34:25 ca\misc\pallets_column.p3d: No geometry and no visual shape
+23:34:25 ca\misc\pallets_column.p3d: No geometry and no visual shape
+23:34:25 ca\misc\pallets_column.p3d: No geometry and no visual shape
+23:34:25 "infiSTAR.de - remExServer modified: {}"
+23:34:26 ca\buildings2\a_advertisingcolumn\a_advertcolumn.p3d: No geometry and no visual shape
+23:34:26 ca\buildings2\a_advertisingcolumn\a_advertcolumn.p3d: No geometry and no visual shape
+23:34:26 ca\buildings2\a_advertisingcolumn\a_advertcolumn.p3d: No geometry and no visual shape
+23:34:26 ca\buildings2\a_advertisingcolumn\a_advertcolumn.p3d: No geometry and no visual shape
+23:34:28 "infiSTAR.de - Player-Log: Casey(76561198134898961) - 0h 06min | ******ADMIN******"
+23:34:29 "HIVE: got 252 Epoch Objects and 653 Vehicles"
+23:34:30 Cannot create non-ai vehicle Lands_Barn_W_01,
+23:34:30 Cannot create non-ai vehicle Land_Stan,
+23:34:30 Cannot create non-ai vehicle Land_Stan,
+23:34:30 Cannot create non-ai vehicle Land_Stan_east,
+23:34:32 Cannot create non-ai vehicle CH53_DZ,
+23:34:32 AH6X_DZ: FLIR_turret - unknown animation source FLIR_turret
+23:34:32 AH6X_DZ: FLIR_gun - unknown animation source FLIR_gun
+23:34:33 UH1Y_DZ: ObsTurret - unknown animation source ObsTurret
+23:34:33 UH1Y_DZ: ObsGun - unknown animation source ObsGun
+23:34:36 Cannot create non-ai vehicle CH53_DZ,
+23:34:37 Cannot create non-ai vehicle CH53_DZ,
+23:34:37 Cannot create non-ai vehicle CH53_DZ,
+23:34:38 Cannot create non-ai vehicle CH53_DZ,
+23:34:41 "HIVE: Vehicle Spawn limit reached!"
+23:34:41 "HIVE: Spawning # of Debris: 150"
+23:34:41 "HIVE: Spawning # of Ammo Boxes: 3"
+23:34:41 "HIVE: Spawning # of Veins: 50"
+23:34:42 "Total Number of spawn locations 5"
+23:34:42 "[DZAI] Initializing DZAI version 2.2.1 Release Build 20141208 using base path z\addons\dayz_server\DZAI."
+23:34:42 "[DZAI] Reading DZAI configuration file."
+23:34:42 "[DZAI] DZAI configuration file loaded."
+23:34:42 "[DZAI] Compiling DZAI functions."
+23:34:42 "EPOCH EVENTS INIT"
+23:34:42 "PLANE: Starting spawn logic for animated AN2 Carepackage drops - written by Grafzahl, modded by fofinho [CD:1]"
+23:34:42 "PLANE: 75% chance to start a AN2 Cargo Plane Carepackagedrop at 3188.06 with 4 drop points"
+23:34:48 "AN2CRASHSPAWNER: Starting spawn logic for animated helicrashs - written by Grafzahl [SC:false||PW:5||CD:1]"
+23:34:48 "AN2CRASHSPAWNER: 99% chance to start a crashing AN2 Cargo Plane with loot table 'HeliCrash' at 725.482"
+23:34:48 Error in expression <temType = 1;
+dayz_serverobjectmonitor = dayz_serverobjectmonitor;
+
+if(count _thi>
+23:34:48   Error position: <dayz_serverobjectmonitor;
+
+if(count _thi>
+23:34:48   Error Undefined variable in expression: dayz_serverobjectmonitor
+23:34:48 File z\addons\dayz_server\compile\server_spawnAN2CrashSite.sqf, line 20
+23:34:48 "RANDOM WORLDSPACE: Initializing defaults... BalottaAirstrip | 4829.99 2450.11 1.5| RANDOM ON: true"
+23:34:48 "DEBUG VEIN: Too many objects at [4860.6,10505.3]"
+23:34:48 "DEBUG VEIN: Too many objects at [6102.41,6928.06]"
+23:34:51 "RANDOM WORLDSPACE SELECTED: 28 | City: Nizhnoye | Coords: 13002.4 , 8285.86 | Try 42"
+23:34:54 "AIRRAID: SEL: [13002.4,8285.86,1.5] | TARGET: [13002.4,8285.86,1.5] | CITY: Nizhnoye"
+23:34:57 "WAI: AI Config File Loaded"
+23:34:57 "AIRRAID: BOMBER: Mi-17 | TYPE: Mi17_DZ Start at [13987.6,10755.2,300] | End at [13987.6,10755.2]"
+23:34:57 "AIRRAID: BOMBER: Mi-17 moving from [13987.6,10755.2,300] to [13016.3,8451.93] NOW!( TIME: 34 )"
+23:34:59 "WAI: AI Monitor Started"
+23:35:02 "WAI: Paradrop Waiting for player"
+23:35:02 "WAI: Paradrop Waiting for player"
+23:35:02 "WAI: Paradrop Waiting for player"
+23:35:02 "WAI: Paradrop Waiting for player"
+23:35:02 "WAI: Paradrop Waiting for player"
+23:35:02 "WAI: Paradrop Waiting for player"
+23:35:05 "AIRRAID: BOMBER: Adding Pre-target Waypoint #1 on [10500.4,10534.8]"
+23:35:07 "infiSTAR.de PlayerConnected: _uid: 76561198105556705   _name: TUNDRA"
+23:35:07 "infiSTAR.de - Player-Log: TUNDRA(76561198105556705) - 0h 06min"
+23:35:08 "WAI: Mission Config File Loaded"
+23:35:12 "WAI: Starting AI Missions Moniter"
+23:35:44 "[DZAI] DZAI functions compiled."
+23:35:44 "[DZAI] Epoch classnames loaded."
+23:35:44 "[DZAI] DZAI settings: Debug Level: 0. DebugMarkers: false. WorldName: chernarus. ModName: epoch (Ver: 1.0.5.1). DZAI_dynamicWeaponList: true. VerifyTables: true."
+23:35:44 "[DZAI] AI spawn settings: Static: true. Dynamic: true. Random: false. Air: true. Land: true."
+23:35:44 "[DZAI] AI settings: DZAI_findKiller: true. DZAI_useHealthSystem: true. DZAI_weaponNoise: true. DZAI_zombieEnemy: true."
+23:35:44 "[DZAI] DZAI loading completed in 62.37 seconds."
+23:35:53 Server: Object 4:24 not found (message 94)
+23:35:53 SetFace error: class CfgFaces.GravesHead_EP1.Zombie1 not found
+23:35:53 Error: Error during SetFace - class CfgFaces.GravesHead_EP1.Zombie1 not found
+23:35:53 "TIME SYNC: Local Time set to [2015,7,18,8,35]"
+23:35:53 Server: Object info 3:3 not found during Changing Owner
+23:35:53 Server: Object info 3:2 not found during Changing Owner
+23:35:59 "infiSTAR.de fnc_AdminFirstReq: [1234,B 1-1-B:1 (Casey) REMOTE,"76561198134898961"]"
+23:35:59 "infiSTAR.de fnc_AdminReqProceed: [1234,B 1-1-B:1 (Casey) REMOTE,"76561198134898961"]"
+23:35:59 "infiSTAR.de ******ADMIN-LOGIN******: Casey(76561198134898961)"
+23:35:59 WMOD v1.1.0: loading...
+23:36:06 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey GroupIcons Activated"
+23:36:07 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey TP infront of you ON"
+23:36:09 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey FastFire ON"
+23:36:09 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey adminammo_recoil ON"
+23:36:10 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey G_o_d ON"
+23:36:29 "_iClass isNil, exiting loot spawn!"
+23:36:29 Error in expression <2) then {
+_position set [2,0];
+_item = [_itemType select 0, _itemType select 1, >
+23:36:29   Error position: <_itemType select 0, _itemType select 1, >
+23:36:29   Error Undefined variable in expression: _itemtype
+23:36:29 File z\addons\dayz_server\compile\fn_bases.sqf, line 58
+23:36:29 Error in expression <
+_itemType = [];
+_itemType = _itemTypes select _index;
+
+_position = [];
+_positio>
+23:36:29   Error position: <select _index;
+
+_position = [];
+_positio>
+23:36:29   Error Zero divisor
+23:36:29 File z\addons\dayz_server\compile\fn_bases.sqf, line 50
+23:36:30 "[DZAI] Verified 195 unique classnames in 2.117 seconds."
+23:36:30 "Chernarus spawn areas loaded."
+23:36:31 "Chernarus static spawn configuration loaded."
+23:37:00 [DZMS]: Starting DayZ Mission System.
+23:37:00 [DZMS]: DZAI Found! Using DZAI's Relations!
+23:37:00 [DZMS]: WickedAI Found! Using WickedAI's Relations!
+23:37:00 [DZMS]: Multiple Relations Detected! Unwanted AI Behaviour May Occur!
+23:37:00 [DZMS]: If Issues Arise, Decide on a Single AI System! (DayZAI, SargeAI, or WickedAI)
+23:37:00 [DZMS]: Currently Running Version: RC1.1
+23:37:00 [DZMS]: Outdated Configuration Detected! Please Update DZMS!
+23:37:00 [DZMS]: Old Versions are not supported by the Mod Author!
+23:37:00 [DZMS]: Mission and Extended Configuration Loaded!
+23:37:00 [DZMS]: chernarus Detected. Map Specific Settings Adjusted!
+23:37:00 [DZMS]: DayZ Epoch Detected! Some Scripts Adjusted!
+23:37:00 [DZMS]: Loading ExecVM Functions.
+23:37:00 [DZMS]: Loading Compiled Functions.
+23:37:00 [DZMS]: Loading All Other Functions.
+23:37:00 [DZMS]: Mission Functions Script Loaded!
+23:37:00 [DZMS]: Major Mission Clock Starting!
+23:37:00 [DZMS]: Minor Mission Clock Starting!
+23:37:00 [DZMS]: Mission Marker Loop for JIPs Starting!
+23:37:08 "AIRRAID: BOMBER: Mi-17  POS: [12048.4,10516.7,396.98] end moving to Pre-target Waypoint at [10500.4,10534.8] ( TIME: 152 )"
+23:37:08 "AIRRAID: INCOMING ATTACK: Sounding Siren at: [13002.4,8285.86,1.5] [C 1-1-A,1]"
+23:37:08 "AIRRAID: BOMBER: Mi-17 is at [12048.4,10516.7,396.978]!"
+23:37:10 "AIRRAID: BOMBER: DISTANCE: 2475.51 | POSITION: [12046.4,10517.8,389.814]"
+23:37:12 "7 Active ground units"
+23:37:12 "4 Active emplacement units"
+23:37:13 "10 Active chopper patrol units (Crew)"
+23:37:13 "12 Active vehicle patrol units (Crew)"
+23:37:15 "infiSTAR.de fnc_AdminFirstReq: [1,B 1-1-B:1 (Casey) REMOTE,[13854.3,11718.6,0]]"
+23:37:15 "infiSTAR.de fnc_AdminReqProceed: [1,B 1-1-B:1 (Casey) REMOTE,[13854.3,11718.6,0]]"
+23:37:15 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey Teleport to [13854.3,11718.6,0](@138036)"
+23:37:19 "AIRRAID: BOMBER: SIRENLOOP: DISTANCE: 2301.81 | POSITION: [12105.8,10323.1,339.452]"
+23:37:29 "AIRRAID: BOMBER: SIRENLOOP: DISTANCE: 1843.98 | POSITION: [12324.7,9902.01,328.95]"
+23:37:42 "AIRRAID: BOMBER: SIRENLOOP: DISTANCE: 1136.44 | POSITION: [12649.7,9250.17,297.743]"
+23:37:47 "infiSTAR.de PlayerConnected: _uid: 76561198032047520   _name: Rad"
+23:37:47 "infiSTAR.de - Player-Log: Rad(76561198032047520) - 0h 09min | ******ADMIN******"
+23:37:53 "AIRRAID: BOMBER: SIRENLOOP: DISTANCE: 657.089 | POSITION: [12897.4,8748.42,420.06]"
+23:38:14 "AIRRAID: BOMBER: DISTANCE: 320.369 | POSITION: [12985.2,8392.64,300.234]"
+23:38:15 SetFace error: class CfgFaces.OharaHead.Face08 not found
+23:38:15 Error: Error during SetFace - class CfgFaces.OharaHead.Face08 not found
+23:38:15 "CLEANUP: INITIALIZING CLEANUP SCRIPT"
+23:38:33 "infiSTAR.de fnc_AdminFirstReq: [1234,B 1-1-C:1 (Rad) REMOTE,"76561198032047520"]"
+23:38:33 "infiSTAR.de fnc_AdminReqProceed: [1234,B 1-1-C:1 (Rad) REMOTE,"76561198032047520"]"
+23:38:33 "infiSTAR.de ******ADMIN-LOGIN******: Rad(76561198032047520)"
+23:38:58 "AIRRAID: BOMBER: Mi-17 Bombing Initialize: arrived at [12988.5,8373.99,356.983]!, "
+23:39:06 "AIRRAID: BOMB: [12902.3,8299.22,2.95286] | TARGET: [13002.4,8285.86,1.5] | NUMBER: 60 | SOUND [12902.3,8299.22,1.5] | CHOICE 1"
+23:40:36 "infiSTAR.de fnc_AdminFirstReq: [1,B 1-1-B:1 (Casey) REMOTE,[12929.4,3770.52,0]]"
+23:40:36 "infiSTAR.de fnc_AdminReqProceed: [1,B 1-1-B:1 (Casey) REMOTE,[12929.4,3770.52,0]]"
+23:40:36 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey Teleport to [12929.4,3770.52,0](@129115)"
+23:40:58 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   TUNDRA Moved to Casey"
+23:40:59 "infiSTAR.de Log: TUNDRA (76561198105556705) | Admin Teleport: 138036 to 130115 (7983m) | Graves_Light_DZ | [13865.1,11713.7,0.00172091] to [13006.4,3776.94,0.00152349]"
+23:40:59 "["PVAHR_0_fhxsixog_PVAHR_0_fhxsixog",["TUNDRA","76561198105556705","Admin Teleport: 138036 to 130115 (7983m) | Graves_Light_DZ | [13865.1,11713.7,0.00172091] to [13006.4,3776.94,0.00152349]"]]"
+23:41:31 "DZAI Monitor :: Server Uptime: 0:13:31. Active AI Groups: 24."
+23:41:31 "DZAI Monitor :: Static Spawns: 0. Respawn Queue: 1 groups queued."
+23:41:31 "DZAI Monitor :: Dynamic Spawns: 0. Random Spawns: 0. Air Patrols: 10. Land Patrols: 14."
+23:42:19 [DZMS]: Running Minor Mission SM4.
+23:42:22 UH60Wreck_DZ: MainTurret - unknown animation source mainTurret
+23:42:22 UH60Wreck_DZ: MainGun - unknown animation source mainGun
+23:42:22 UH60Wreck_DZ: MachineGun_1 - unknown animation source Gatling_1
+23:42:24 [DZMS]: (DZMSUnitsMinor) 3 AI Spawned, 3 units in mission.
+23:42:26 [DZMS]: (DZMSUnitsMinor) 3 AI Spawned, 6 units in mission.
+23:42:28 [DZMS]: (DZMSUnitsMinor) 3 AI Spawned, 9 units in mission.
+23:42:29 [DZMS]: (DZMSUnitsMinor) Waiting for 2/9 Units or Less to be Alive and a Player to be Near the Objective.
+23:42:54 "infiSTAR.de PVAH_WriteLog: B 1-1-C:1 (Rad) REMOTE   Rad GroupIcons Activated"
+23:42:56 "infiSTAR.de PVAH_WriteLog: B 1-1-C:1 (Rad) REMOTE   Rad G_o_d ON"
+23:42:57 "infiSTAR.de PVAH_WriteLog: B 1-1-C:1 (Rad) REMOTE   Rad adminammo_recoil ON"
+23:43:16 "TIME SYNC: Local Time set to [2015,7,18,8,43]"
+23:43:44 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   TUNDRA Moved to Casey"
+23:43:45 "infiSTAR.de Log: TUNDRA (76561198105556705) | Admin Teleport: 132119 to 130115 (419m) | Graves_Light_DZ | [13238.7,3434.01,13.2325] to [13019.7,3791.38,0.00135374]"
+23:43:45 "["PVAHR_0_fhxsixog_PVAHR_0_fhxsixog",["TUNDRA","76561198105556705","Admin Teleport: 132119 to 130115 (419m) | Graves_Light_DZ | [13238.7,3434.01,13.2325] to [13019.7,3791.38,0.00135374]"]]"
+23:43:48 "AIRRAID: BOMB: [12960.6,8208.26,2.92712] | TARGET: [13002.4,8285.86,1.5] | NUMBER: 1 | SOUND [12960.6,8208.26,1.5] | CHOICE 2"
+23:45:27 "infiSTAR.de PVAH_WriteLog: B 1-1-C:1 (Rad) REMOTE   Rad TP infront of you ON"
+23:45:41 "AIRRAID: BOMBER: Mi-17 has Completed Bombing at [12988.6,8373.69,114.011]!"
+23:45:41 "AIRRAID: BOMBER: AISPAWN: [12988.6,8373.69,113.709] | NUMBER 7"
+23:45:41 Warning Message: Script units\add_unit_server_band.sqf not found
+23:46:08 "Running pole stuff for char 422"
+23:46:08 "All Poles: [3be14100# 1066930: sign_one_leg_h.p3d]"
+23:46:08 "Pole: 3be14100# 1066930: sign_one_leg_h.p3d"
+23:46:08 "Owner of pole: 451"
+23:46:08 "Player owned plots: []"
+23:46:08 "Player death records: ["422","76561198032047520",[]]"
+23:46:08 "DeadPlayerObjects: [["422","76561198032047520",[]]]"
+23:46:08 "PDEATH: Player Died 76561198032047520"
+23:46:12 SetFace error: class CfgFaces.OharaHead.Face08 not found
+23:46:12 Error: Error during SetFace - class CfgFaces.OharaHead.Face08 not found
+23:46:12 SetFace error: class CfgFaces.OharaHead.Face08 not found
+23:46:12 Error: Error during SetFace - class CfgFaces.OharaHead.Face08 not found
+23:46:18 "infiSTAR.de PlayerDisconnected: _uid: 76561198032047520   _name: Rad"
+23:46:18 "get: STRING (76561198032047520), sent: STRING (76561198032047520)"
+23:46:18 "DISCONNECT: Rad (76561198032047520) Object: B 1-1-C:1 (Rad) REMOTE, _characterID: 422 at loc [-7240.52,19538.7,0.374481]"
+23:46:18 "ERROR: server_playerSync: Cannot Sync Player Rad [422]. Position in debug! [-7240.52,19538.7,0.374481]"
+23:46:18 Client: Remote object 5:0 not found
+23:46:35 "AIRRAID: BOMBER: Mi-17 Leaving Area [12987,8372.17,28.6889]"
+23:46:35 "AIRRAID: BOMBER: DISTANCE SAFETYPOINT: 2366.61 | POSITION: [12987,8372.17,28.6889]"
+23:46:36 "DZAI Monitor :: Server Uptime: 0:18:36. Active AI Groups: 30."
+23:46:36 "DZAI Monitor :: Static Spawns: 0. Respawn Queue: 1 groups queued."
+23:46:36 "DZAI Monitor :: Dynamic Spawns: 0. Random Spawns: 0. Air Patrols: 10. Land Patrols: 20."
+23:46:38 "infiSTAR.de PlayerConnected: _uid: 76561198032047520   _name: Rad"
+23:46:38 "WAI: Starting Mission WAI_Slaughter"
+23:46:39 "WAI: Mission Slaughter House Started At [7932.06,9255.19]"
+23:46:40 "WAI: Spawned a group of 6 Bandits at [7941.06,9242.19,0]"
+23:46:41 "WAI: Spawned a group of 4 Bandits at [7945.06,9270.19,0]"
+23:46:41 Cannot create non-ai vehicle TK_INS_Soldier_Warlord_EP1,
+23:46:41 Cannot create non-ai vehicle TK_INS_Soldier_Warlord_EP1,
+23:46:41 Cannot create non-ai vehicle TK_INS_Soldier_Warlord_EP1,
+23:46:41 Cannot create non-ai vehicle TK_INS_Soldier_Warlord_EP1,
+23:46:42 "WAI: Spawned a group of 4 Bandits at [7909.06,9230.19,0]"
+23:46:42 "Player 76561198032047520 Character 456 is NEW"
+23:46:42 "Hello New player"
+23:46:42 "Your ID: 76561198032047520 - B 1-1-A:1 (Rad) REMOTE - 456"
+23:46:42 [["422","76561198032047520",[]]]
+23:46:42 "Dead players count: 1"
+23:46:42 "player object found: ["422","76561198032047520",[]]"
+23:46:42 "Old Character: 422 PlayerID: 76561198032047520 Plots: []"
+23:46:42 Error in expression <erPlotObjects = DeadPlayerPlotObjects - _removePlayerObjects;>
+23:46:42   Error position: <_removePlayerObjects;>
+23:46:42   Error Undefined variable in expression: _removeplayerobjects
+23:46:42 File z\addons\dayz_server\compile\server_changePlotsOwner.sqf, line 33
+23:46:43 "WAI: Spawned a group of 4 Bandits at [7919.06,9270.19,0]"
+23:46:44 "WAI: Spawned a group of 4 Bandits at [7932.06,9255.19,0]"
+23:46:44 "WAI: Sapwned in 1 KORD_high_TK_EP1"
+23:46:44 Cannot create non-ai vehicle SUV_Armored_DZ,
+23:46:45 "WAI: Sapwned in 1 KORD_high_TK_EP1"
+23:47:03 "infiSTAR.de fnc_AdminFirstReq: [1234,B 1-1-C:1 (Rad) REMOTE,"76561198032047520"]"
+23:47:03 "infiSTAR.de fnc_AdminReqProceed: [1234,B 1-1-C:1 (Rad) REMOTE,"76561198032047520"]"
+23:47:03 "infiSTAR.de ******ADMIN-LOGIN******: Rad(76561198032047520)"
+23:47:13 "AIRRAID: BOMBER: DISTANCE SAFETYPOINT: 2407.67 | POSITION: [12921.5,8480.13,358.199]"
+23:47:17 "ERROR: server_playerSync: Cannot Sync Player Rad [456]. Position in debug! [-7245.91,19534.7,1.19653]"
+23:47:17 "ERROR: server_playerSync: Cannot Sync Player Rad [456]. Position in debug! [-7245.91,19534.6,1.19873]"
+23:47:19 "ERROR: server_playerSync: Cannot Sync Player Rad [456]. Position in debug! [-7240.12,19539.1,0.301117]"
+23:47:33 "infiSTAR.de PVAH_WriteLog: B 1-1-A:1 (Rad) REMOTE   Rad G_o_d ON"
+23:47:33 "infiSTAR.de PVAH_WriteLog: B 1-1-A:1 (Rad) REMOTE   Rad adminammo_recoil ON"
+23:47:37 "infiSTAR.de PVAH_WriteLog: B 1-1-A:1 (Rad) REMOTE   Rad TP infront of you ON"
+23:47:38 "infiSTAR.de PVAH_WriteLog: B 1-1-A:1 (Rad) REMOTE   Rad GroupIcons Activated"
+23:47:51 "AIRRAID: BOMBER: DISTANCE SAFETYPOINT: 1339 | POSITION: [13985.2,8985.25,507.429]"
+23:47:54 "infiSTAR.de fnc_AdminFirstReq: [1,B 1-1-A:1 (Rad) REMOTE,[13843.1,11663.5,0]]"
+23:47:54 "infiSTAR.de fnc_AdminReqProceed: [1,B 1-1-A:1 (Rad) REMOTE,[13843.1,11663.5,0]]"
+23:47:54 "infiSTAR.de PVAH_WriteLog: B 1-1-A:1 (Rad) REMOTE   Rad Teleport to [13843.1,11663.5,0](@138036)"
+23:48:13 "infiSTAR.de PVAH_WriteLog: B 1-1-A:1 (Rad) REMOTE   Rad DEADMarker Activated"
+23:48:17 "TIME SYNC: Local Time set to [2015,7,18,8,48]"
+23:48:19 "infiSTAR.de fnc_AdminFirstReq: [1,B 1-1-A:1 (Rad) REMOTE,[13785.7,11721,0]]"
+23:48:19 "infiSTAR.de fnc_AdminReqProceed: [1,B 1-1-A:1 (Rad) REMOTE,[13785.7,11721,0]]"
+23:48:19 "infiSTAR.de PVAH_WriteLog: B 1-1-A:1 (Rad) REMOTE   Rad Teleport to [13785.7,11721,0](@137036)"
+23:48:19 "AN2StartCRASHSPAWNER: AN2 Cargo Plane started flying from [6993.7,173.053,300] to [6183.87,6561.06] NOW!(TIME:727||LT:HeliCrash)"
+23:48:20 "AN2CRASHSPAWNER: Adding Pre-POC-Waypoint #1 on [4819.81,12340.8]"
+23:48:20 "AN2CRASHSPAWNER: Adding Pre-POC-Waypoint #2 on [3982.21,6180.53]"
+23:48:20 "AN2CRASHSPAWNER: Adding Pre-POC-Waypoint #3 on [4211.88,7865.53]"
+23:48:20 "AN2CRASHSPAWNER: Adding Pre-POC-Waypoint #4 on [5393.44,6775.29]"
+23:48:20 "AN2CRASHSPAWNER: Adding Pre-POC-Waypoint #5 on [10203.5,7771.04]"
+23:48:59 "28 Active ground units"
+23:48:59 "6 Active emplacement units"
+23:48:59 "10 Active chopper patrol units (Crew)"
+23:48:59 "14 Active vehicle patrol units (Crew)"
+23:49:08 "infiSTAR.de PlayerConnected: _uid: 76561198034431521   _name: The Awoken"
+23:49:08 "infiSTAR.de - Player-Log: The Awoken(76561198034431521) - 0h 20min"
+23:49:55 "AIRRAID: BOMBER: DISTANCE SAFETYPOINT: 594.393 | POSITION: [14770.7,9788.93,580.955]"
+23:50:08 "infiSTAR.de fnc_AdminFirstReq: [0,B 1-1-B:1 (Casey) REMOTE,"BTR90",[13087.6,3866.66,0]]"
+23:50:08 "infiSTAR.de fnc_AdminReqProceed: [0,B 1-1-B:1 (Casey) REMOTE,"BTR90",[13087.6,3866.66,0]]"
+23:50:08 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey (76561198134898961) spawned BTR90 @130114"
+23:50:24 SetFace error: class CfgFaces.OharaHead.Face08 not found
+23:50:24 Error: Error during SetFace - class CfgFaces.OharaHead.Face08 not found
+23:50:24 "Player is Null FAILED: Exiting, player sync: <NULL-object>"
+23:50:25 "ERROR: Cannot Sync Character Rad as no characterID"
+23:50:33 [DZMS]: Running Major Mission EM1.
+23:50:45 [DZMS]: (DZMSUnitsMajor) 6 AI Spawned, 6 units in mission.
+23:50:56 [DZMS]: (DZMSUnitsMajor) 6 AI Spawned, 12 units in mission.
+23:51:04 Error: Bone leftshoulder doesn't exist in some skeleton 
+23:51:04 Error: Bone rightshoulder doesn't exist in some skeleton 
+23:51:04 Error: Bone rightshoulder doesn't exist in some skeleton 
+23:51:04 Error: Bone leftshoulder doesn't exist in some skeleton 
+23:51:04 Error: Bone rightshoulder doesn't exist in some skeleton 
+23:51:04 Error: Bone leftshoulder doesn't exist in some skeleton 
+23:51:04 Error: Bone rightshoulder doesn't exist in some skeleton 
+23:51:04 Error: Bone leftshoulder doesn't exist in some skeleton 
+23:51:04 Error: Bone rightshoulder doesn't exist in some skeleton 
+23:51:04 Error: Bone leftshoulder doesn't exist in some skeleton 
+23:51:04 Error: Bone rightshoulder doesn't exist in some skeleton 
+23:51:04 Error: Bone leftshoulder doesn't exist in some skeleton 
+23:51:04 Error: Bone leftshoulder doesn't exist in some skeleton 
+23:51:04 Error: Bone rightshoulder doesn't exist in some skeleton 
+23:51:04 Error: Bone leftshoulder doesn't exist in some skeleton 
+23:51:04 Error: Bone rightshoulder doesn't exist in some skeleton 
+23:51:05 "infiSTAR.de fnc_AdminFirstReq: [1,B 1-1-B:1 (Casey) REMOTE,[8880.25,7149.33,0]]"
+23:51:05 "infiSTAR.de fnc_AdminReqProceed: [1,B 1-1-B:1 (Casey) REMOTE,[8880.25,7149.33,0]]"
+23:51:05 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey Teleport to [8880.25,7149.33,0](@088082)"
+23:51:06 [DZMS]: (DZMSUnitsMajor) 4 AI Spawned, 16 units in mission.
+23:51:16 [DZMS]: (DZMSUnitsMajor) 4 AI Spawned, 20 units in mission.
+23:51:16 [DZMS]: (DZMSUnitsMajor) Waiting for 5/20 Units or Less to be Alive and a Player to be Near the Objective.
+23:51:21 "AIRRAID: END CYCLE: Going down for sleep: Repeat:41 | Sleep:420"
+23:51:38 "DZAI Monitor :: Server Uptime: 0:23:37. Active AI Groups: 30."
+23:51:38 "DZAI Monitor :: Static Spawns: 1. Respawn Queue: 1 groups queued."
+23:51:38 "DZAI Monitor :: Dynamic Spawns: 0. Random Spawns: 0. Air Patrols: 10. Land Patrols: 20."
+23:51:58 "infiSTAR.de fnc_AdminFirstReq: [-2,B 1-1-B:1 (Casey) REMOTE,O 1-1-D:2]"
+23:51:58 "infiSTAR.de fnc_AdminReqProceed: [-2,B 1-1-B:1 (Casey) REMOTE,O 1-1-D:2]"
+23:51:58 "DELETE: 76561198134898961 Deleted by UID: "
+23:51:58 Error in expression <Inventory",[]]);
+if (str(_inventory) != _previous) then {
+_object setVariable["l>
+23:51:58   Error position: <_previous) then {
+_object setVariable["l>
+23:51:58   Error Undefined variable in expression: _previous
+23:51:58 File z\addons\dayz_server\compile\server_updateObject.sqf, line 74
+23:51:58 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey (76561198134898961) deleted LandRover_CZ_EP1 @089082 - characterID any - objectID:  - objectUID: "
+23:52:02 "infiSTAR.de PVAH_WriteLog: B 1-1-F:1 (Rad) REMOTE   Rad DEADMarker Disabled"
+23:52:11 "infiSTAR.de fnc_AdminFirstReq: [-2,B 1-1-F:1 (Rad) REMOTE,457b7040# 1071402: suv.p3d REMOTE]"
+23:52:11 "infiSTAR.de fnc_AdminReqProceed: [-2,B 1-1-F:1 (Rad) REMOTE,457b7040# 1071402: suv.p3d REMOTE]"
+23:52:11 "DELETE: 76561198032047520 Deleted by ID: 640656"
+23:52:11 "infiSTAR.de PVAH_WriteLog: B 1-1-F:1 (Rad) REMOTE   Rad (76561198032047520) deleted SUV_PMC @137036 - characterID any - objectID: 640656 - objectUID: 640656"
+23:52:21 "infiSTAR.de fnc_AdminFirstReq: [-2,B 1-1-F:1 (Rad) REMOTE,2f98a040# 1067371: ohara.p3d]"
+23:52:21 "infiSTAR.de fnc_AdminReqProceed: [-2,B 1-1-F:1 (Rad) REMOTE,2f98a040# 1067371: ohara.p3d]"
+23:52:21 "DELETE: 76561198032047520 Deleted by UID: 0"
+23:52:21 "infiSTAR.de PVAH_WriteLog: B 1-1-F:1 (Rad) REMOTE   Rad (76561198032047520) deleted FR_OHara_DZ @137036 - characterID any - objectID: 0 - objectUID: 0"
+23:52:33 "infiSTAR.de fnc_AdminFirstReq: [1,B 1-1-B:1 (Casey) REMOTE,[7973.63,9045.05,0]]"
+23:52:33 "infiSTAR.de fnc_AdminReqProceed: [1,B 1-1-B:1 (Casey) REMOTE,[7973.63,9045.05,0]]"
+23:52:34 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey Teleport to [7973.63,9045.05,0](@079063)"
+23:53:01 "Vehicle destroyed with <null> @081062 by Casey (76561198134898961) - UH60_wreck_EP1, worldspace [49.0767,[8106.54,9110.63,7.35983]], CharId 0, objID 0, objUID 0, nearby []"
+23:53:03 "infiSTAR.de fnc_AdminFirstReq: [1,B 1-1-F:1 (Rad) REMOTE,[7944.57,9213.92,0]]"
+23:53:03 "infiSTAR.de fnc_AdminReqProceed: [1,B 1-1-F:1 (Rad) REMOTE,[7944.57,9213.92,0]]"
+23:53:03 "infiSTAR.de PVAH_WriteLog: B 1-1-F:1 (Rad) REMOTE   Rad Teleport to [7944.57,9213.92,0](@079061)"
+23:53:17 "TIME SYNC: Local Time set to [2015,7,18,8,53]"
+23:53:18 "CLEANUP: Deleted 1 fireplaces out of 1"
+23:53:18 "CLEANUP: Deleted 1 Animals out of 4"
+23:53:30 "WAI: Mission Slaughter House Ended At [7932.06,9255.19]"
+23:54:13 Out of path-planning region for O 1-1-L:1 at 2280.9,9287.8, node type
+23:54:13 "infiSTAR.de PlayerConnected: _uid: 76561198066432525   _name: Jake"
+23:54:13 "infiSTAR.de - Player-Log: Jake(76561198066432525) - 0h 25min"
+23:54:34 Warning: z\addons\dayz_communityassets\models\razor.p3d:0 Error while trying to generate ST for points: 214, 349, 208
+23:55:39 "Vehicle destroyed @076063 - hilux1_civil_3_open_EP1, worldspace [43.7196,[7693.96,9042,0.0149231]], CharId 0, objID 2016, objUID 0, nearby []"
+23:56:13 SetFace error: class CfgFaces.RodriguezHead.Face03 not found
+23:56:13 Error: Error during SetFace - class CfgFaces.RodriguezHead.Face03 not found
+23:56:15 "ERROR: Cannot Sync Character The Awoken as no characterID"
+23:56:15 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey Vehboost On"
+23:56:42 "infiSTAR.de PlayerDisconnected: _uid: 76561198066432525   _name: Jake"
+23:56:42 "get: STRING (76561198066432525), sent: STRING (76561198066432525)"
+23:56:42 "DISCONNECT: Jake (76561198066432525) Object: B 1-1-D:1 (Jake) REMOTE, _characterID: 0 at loc [-7245.5,19535.3,1.10925]"
+23:56:42 "ERROR: Cannot Sync Character Jake as no characterID"
+23:56:43 Client: Remote object 7:0 not found
+23:56:48 "Vehicle destroyed @087061 - hilux1_civil_2_covered, worldspace [128.735,[8764.46,9213.5,6.10352e-005]], CharId 0, objID 79, objUID 0, nearby []"
+23:56:54 "DZAI Monitor :: Server Uptime: 0:28:54. Active AI Groups: 31."
+23:56:54 "DZAI Monitor :: Static Spawns: 2. Respawn Queue: 1 groups queued."
+23:56:54 "DZAI Monitor :: Dynamic Spawns: 0. Random Spawns: 0. Air Patrols: 10. Land Patrols: 20."
+23:57:08 "infiSTAR.de PVAH_WriteLog: B 1-1-F:1 (Rad) REMOTE   Rad Spectating The Awoken"
+23:57:10 "infiSTAR.de fnc_AdminFirstReq: [1,B 1-1-B:1 (Casey) REMOTE,[12792.1,3674.84,0]]"
+23:57:10 "infiSTAR.de fnc_AdminReqProceed: [1,B 1-1-B:1 (Casey) REMOTE,[12792.1,3674.84,0]]"
+23:57:10 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey Teleport to [12792.1,3674.84,0](@127116)"
+23:58:17 "TIME SYNC: Local Time set to [2015,7,18,8,58]"
+23:58:57 "CLEANUP: Deleted 8 Loot Piles out of 47"
+23:59:20 "PHIT: B 1-1-B:1 (TUNDRA) REMOTE was hit by B 1-1-B:1 (Casey) REMOTE with BTR-90 from 0m with 0.191734 dmg"
+23:59:20 Error in expression <;
+
+_weapon = weaponState _attacker;
+if (_weapon select 0 == "Throw") then 
+{
+_we>
+23:59:20   Error position: <_weapon select 0 == "Throw") then 
+{
+_we>
+23:59:20   Error Undefined variable in expression: _weapon
+23:59:20 File z\addons\dayz_server\compile\fnc_plyrHit.sqf, line 12
+ 0:00:05 "RUNNING EVENT: crash_spawner on [2015,7,18,9,0]"
+ 0:00:05 "CRASHSPAWNER: 78.35% chance to start a crashing Mi-17 with loot table 'HeliCrash'"
+ 0:00:05 "CRASHSPAWNER: Mi-17 started flying from [6986,-630,1000] to [2904.44,10324.8] NOW!(TIME:1194||LT:HeliCrash)"
+ 0:00:11 "PHIT: B 1-1-B:1 (TUNDRA) REMOTE was hit by B 1-1-B:1 (Casey) REMOTE with BTR-90 from 0m with 0.35408 dmg"
+ 0:00:11 Error in expression <;
+
+_weapon = weaponState _attacker;
+if (_weapon select 0 == "Throw") then 
+{
+_we>
+ 0:00:11   Error position: <_weapon select 0 == "Throw") then 
+{
+_we>
+ 0:00:11   Error Undefined variable in expression: _weapon
+ 0:00:11 File z\addons\dayz_server\compile\fnc_plyrHit.sqf, line 12
+ 0:00:45 "infiSTAR.de fnc_AdminFirstReq: [1,B 1-1-B:1 (Casey) REMOTE,[12426.4,4004.95,0]]"
+ 0:00:45 "infiSTAR.de fnc_AdminReqProceed: [1,B 1-1-B:1 (Casey) REMOTE,[12426.4,4004.95,0]]"
+ 0:00:45 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey Teleport to [12426.4,4004.95,0](@124113)"
+ 0:01:24 "PHIT: B 1-1-B:1 (TUNDRA) REMOTE was hit by B 1-1-B:1 (Casey) REMOTE with BTR-90 from 0m with 0.495983 dmg"
+ 0:01:36 "infiSTAR.de fnc_AdminFirstReq: [5,B 1-1-B:1 (Casey) REMOTE,B 1-1-B:1 (TUNDRA) REMOTE]"
+ 0:01:36 "infiSTAR.de fnc_AdminReqProceed: [5,B 1-1-B:1 (Casey) REMOTE,B 1-1-B:1 (TUNDRA) REMOTE]"
+ 0:01:36 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey AdminHeal TUNDRA"
+ 0:01:39 "CLEANUP: Deleted 1 Loot Piles out of 45"
+ 0:01:40 "infiSTAR.de fnc_AdminFirstReq: [1,B 1-1-B:1 (Casey) REMOTE,[12340.4,3529.71,0]]"
+ 0:01:40 "infiSTAR.de fnc_AdminReqProceed: [1,B 1-1-B:1 (Casey) REMOTE,[12340.4,3529.71,0]]"
+ 0:01:40 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey Teleport to [12340.4,3529.71,0](@123118)"
+ 0:01:48 "PHIT: B 1-1-B:1 (TUNDRA) REMOTE was hit by B 1-1-B:1 (Casey) REMOTE with BTR-90 from 0m with 2.86888 dmg"
+ 0:01:56 "DZAI Monitor :: Server Uptime: 0:33:56. Active AI Groups: 32."
+ 0:01:56 "DZAI Monitor :: Static Spawns: 3. Respawn Queue: 1 groups queued."
+ 0:01:56 "DZAI Monitor :: Dynamic Spawns: 1. Random Spawns: 0. Air Patrols: 10. Land Patrols: 20."
+ 0:01:58 "infiSTAR.de fnc_AdminFirstReq: [5,B 1-1-B:1 (Casey) REMOTE,B 1-1-B:1 (TUNDRA) REMOTE]"
+ 0:01:58 "infiSTAR.de fnc_AdminReqProceed: [5,B 1-1-B:1 (Casey) REMOTE,B 1-1-B:1 (TUNDRA) REMOTE]"
+ 0:01:58 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey AdminHeal TUNDRA"
+ 0:02:00 "infiSTAR.de fnc_AdminFirstReq: [5,B 1-1-B:1 (Casey) REMOTE,B 1-1-B:1 (TUNDRA) REMOTE]"
+ 0:02:00 "infiSTAR.de fnc_AdminReqProceed: [5,B 1-1-B:1 (Casey) REMOTE,B 1-1-B:1 (TUNDRA) REMOTE]"
+ 0:02:00 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey AdminHeal TUNDRA"
+ 0:02:17 "RANDOM WORLDSPACE SELECTED: 16 | City: Kabanino | Coords: 5318.84 , 8602.63 | Try 41"
+ 0:02:18 "AIRRAID: SEL: [5318.84,8602.63,1.5] | TARGET: [5318.84,8602.63,1.5] | CITY: Kabanino"
+ 0:02:22 "AIRRAID: BOMBER: UH-1H | TYPE: UH1H_DZ Start at [13987.6,10755.2,300] | End at [13987.6,10755.2]"
+ 0:02:22 "AIRRAID: BOMBER: UH-1H moving from [13987.6,10755.2,300] to [5153.02,8499.52] NOW!( TIME: 1282 )"
+ 0:02:24 "AIRRAID: BOMBER: Adding Pre-target Waypoint #1 on [5762.1,4423.77]"
+ 0:02:55 "infiSTAR.de fnc_AdminFirstReq: [52,B 1-1-B:1 (Casey) REMOTE,[12348,3528.49,2.07947]]"
+ 0:02:55 "infiSTAR.de fnc_AdminReqProceed: [52,B 1-1-B:1 (Casey) REMOTE,[12348,3528.49,2.07947]]"
+ 0:02:55 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey Flips Vehicle near TUNDRA()"
+ 0:02:56 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey Flipped vehicles @[12348,3528.49,2.07947]"
+ 0:02:59 "infiSTAR.de fnc_AdminFirstReq: [52,B 1-1-B:1 (Casey) REMOTE,[12411.5,3689.38,0.0025177]]"
+ 0:02:59 "infiSTAR.de fnc_AdminReqProceed: [52,B 1-1-B:1 (Casey) REMOTE,[12411.5,3689.38,0.0025177]]"
+ 0:02:59 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey Flipped vehicles @[12411.5,3689.38,0.0025177]"
+ 0:02:59 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey Flips Vehicle near Rad()"
+ 0:03:18 "TIME SYNC: Local Time set to [2015,7,18,9,3]"
+ 0:03:43 "CLEANUP: Deleted 3 Loot Piles out of 46"
+ 0:04:19 "12 Active ground units"
+ 0:04:19 "4 Active emplacement units"
+ 0:04:19 "10 Active chopper patrol units (Crew)"
+ 0:04:19 "14 Active vehicle patrol units (Crew)"
+ 0:04:24 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey moved Rad in his vehicle"
+ 0:04:55 "infiSTAR.de fnc_AdminFirstReq: [-2,B 1-1-B:1 (Casey) REMOTE,45cdd0c0# 1070965: btr90.p3d REMOTE]"
+ 0:04:55 "infiSTAR.de fnc_AdminReqProceed: [-2,B 1-1-B:1 (Casey) REMOTE,45cdd0c0# 1070965: btr90.p3d REMOTE]"
+ 0:04:55 "DELETE: 76561198134898961 Deleted by UID: 13087638667053"
+ 0:04:56 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey (76561198134898961) deleted BTR90 @123117 - characterID any - objectID: 0 - objectUID: 13087638667053"
+ 0:05:19 "infiSTAR.de fnc_AdminFirstReq: [0,B 1-1-B:1 (Casey) REMOTE,"UH60M_EP1_DZ",[12398.1,3563.26,0]]"
+ 0:05:19 "infiSTAR.de fnc_AdminReqProceed: [0,B 1-1-B:1 (Casey) REMOTE,"UH60M_EP1_DZ",[12398.1,3563.26,0]]"
+ 0:05:19 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey (76561198134898961) spawned UH60M_EP1_DZ @123117"
+ 0:05:48 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey Vehboost Disabled"
+ 0:05:50 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey adminCarGod 0"
+ 0:05:50 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey adminCarGod 0"
+ 0:06:19 "AN2EndCRASHSPAWNER: AN2 Cargo Plane just exploded at [6310.94,6578.6,97.7834]!, "
+ 0:06:40 Cannot create non-ai vehicle AN2Wreck,
+ 0:06:40 "AN2CRASHSPAWNER: numLoot: '11', _index: '', _weights: '', _cntItemTypes: '0', config: 'bin\config.bin/CfgBuildingLoot/HeliCrash'"
+ 0:06:40 "_iClass isNil, exiting loot spawn!"
+ 0:06:40 Error in expression <_itemType = [];
+
+_itemType = _itemTypes select _index;
+
+
+[_itemType select 0, _i>
+ 0:06:40   Error position: <select _index;
+
+
+[_itemType select 0, _i>
+ 0:06:40   Error Zero divisor
+ 0:06:40 File z\addons\dayz_server\compile\server_spawnAN2CrashSite.sqf, line 247
+ 0:06:40 Error in expression <es: '%4', config: '%5'", str(_num), str(_index), str(_weights), str(_cntItems), >
+ 0:06:40   Error position: <_index), str(_weights), str(_cntItems), >
+ 0:06:40   Error Undefined variable in expression: _index
+ 0:06:40 File z\addons\dayz_server\compile\server_spawnAN2CrashSite.sqf, line 235
+ 0:07:12 "Vehicle destroyed @096134 - UH1Wreck, worldspace [252.854,[9630.31,1938.22,-0.846184]], CharId 0, objID 0, objUID 0, nearby []"
+ 0:07:34 "DZAI Cleanup: Cleaned up 3 dead units and 0 destroyed vehicles."
+ 0:07:35 "DZAI Monitor :: Server Uptime: 0:39:34. Active AI Groups: 30."
+ 0:07:35 "DZAI Monitor :: Static Spawns: 2. Respawn Queue: 2 groups queued."
+ 0:07:35 "DZAI Monitor :: Dynamic Spawns: 0. Random Spawns: 0. Air Patrols: 9. Land Patrols: 20."
+ 0:07:48 "WAI: Starting Mission ems_cache"
+ 0:07:48 "WAI: Mission Weapon Cache Started At [10038.2,13488.9]"
+ 0:07:50 "WAI: Mission Weapon Cache spawned a SUV Camo"
+ 0:07:56 "WAI: Spawned a group of 6 Bandits at [10038.2,13488.9,0]"
+ 0:07:58 "WAI: Spawned a group of 4 Bandits at [10038.2,13488.9,0]"
+ 0:08:01 "WAI: Sapwned in 2 M2StaticMG"
+ 0:08:19 "TIME SYNC: Local Time set to [2015,7,18,9,8]"
+ 0:08:19 "CLEANUP: Deleted 1 Animals out of 5"
+ 0:09:33 "CLEANUP: Deleted 1 Loot Piles out of 129"
+ 0:12:38 "DZAI Monitor :: Server Uptime: 0:44:38. Active AI Groups: 32."
+ 0:12:38 "DZAI Monitor :: Static Spawns: 3. Respawn Queue: 1 groups queued."
+ 0:12:38 "DZAI Monitor :: Dynamic Spawns: 1. Random Spawns: 0. Air Patrols: 9. Land Patrols: 20."
+ 0:13:08 "Vehicle destroyed with <null> @063134 by Casey (76561198134898961) - smallboat_2, worldspace [359.999,[6363.26,1925.77,6.03864]], CharId 0, objID 57, objUID 0, nearby []"
+ 0:13:19 "TIME SYNC: Local Time set to [2015,7,18,9,13]"
+ 0:13:39 "CLEANUP: Deleted 2 Loot Piles out of 143"
+ 0:15:05 "RUNNING EVENT: supply_drop on [2015,7,18,9,15]"
+ 0:15:30 "CLEANUP: Deleted 17 Loot Piles out of 141"
+ 0:15:35 Server: Object 5:148 not found (message 99)
+ 0:15:35 Server: Object 5:149 not found (message 91)
+ 0:15:36 Server: Object 5:150 not found (message 98)
+ 0:15:36 Server: Object 5:151 not found (message 91)
+ 0:15:36 Server: Object 5:152 not found (message 99)
+ 0:15:36 Server: Object 5:153 not found (message 91)
+ 0:16:12 "infiSTAR.de fnc_AdminFirstReq: [5,B 1-1-B:1 (Casey) REMOTE,B 1-1-B:1 (TUNDRA) REMOTE]"
+ 0:16:12 "infiSTAR.de fnc_AdminReqProceed: [5,B 1-1-B:1 (Casey) REMOTE,B 1-1-B:1 (TUNDRA) REMOTE]"
+ 0:16:12 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey AdminHeal TUNDRA"
+ 0:16:39 "CLEANUP: Deleted 3 Loot Piles out of 138"
+ 0:18:19 "TIME SYNC: Local Time set to [2015,7,18,9,18]"
+ 0:18:27 "DZAI Monitor :: Server Uptime: 0:50:27. Active AI Groups: 31."
+ 0:18:27 "DZAI Monitor :: Static Spawns: 2. Respawn Queue: 1 groups queued."
+ 0:18:27 "DZAI Monitor :: Dynamic Spawns: 1. Random Spawns: 0. Air Patrols: 9. Land Patrols: 20."
+ 0:18:40 "infiSTAR.de fnc_AdminFirstReq: [-2,B 1-1-B:1 (Casey) REMOTE,46bf6080# 1078295: uh60m.p3d REMOTE]"
+ 0:18:40 "infiSTAR.de fnc_AdminReqProceed: [-2,B 1-1-B:1 (Casey) REMOTE,46bf6080# 1078295: uh60m.p3d REMOTE]"
+ 0:18:40 "DELETE: 76561198134898961 Deleted by UID: 123981356330139"
+ 0:18:41 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey (76561198134898961) deleted UH60M_EP1_DZ @036129 - characterID any - objectID: 0 - objectUID: 123981356330139"
+ 0:18:42 "CRASHSPAWNER: Mi-17 just exploded at [2996.18,10364.3,0.299683]!, "
+ 0:18:42 "_iClass isNil, exiting loot spawn!"
+ 0:18:42 Error in expression <s select _index;
+_itemType = _itemTypes select _index;
+[_itemType select 0, _ite>
+ 0:18:42   Error position: <select _index;
+[_itemType select 0, _ite>
+ 0:18:42   Error Zero divisor
+ 0:18:42 File z\addons\dayz_server\modules\crash_spawner.sqf, line 168
+ 0:19:30 "infiSTAR.de fnc_AdminFirstReq: [5,B 1-1-F:1 (Rad) REMOTE,B 1-1-B:1 (TUNDRA) REMOTE]"
+ 0:19:30 "infiSTAR.de fnc_AdminReqProceed: [5,B 1-1-F:1 (Rad) REMOTE,B 1-1-B:1 (TUNDRA) REMOTE]"
+ 0:19:30 "infiSTAR.de PVAH_WriteLog: B 1-1-F:1 (Rad) REMOTE   Rad AdminHeal TUNDRA"
+ 0:19:59 "DZAI Cleanup: Cleaned up 1 expired temporary blacklist areas."
+ 0:20:09 "22 Active ground units"
+ 0:20:09 "6 Active emplacement units"
+ 0:20:09 "10 Active chopper patrol units (Crew)"
+ 0:20:09 "14 Active vehicle patrol units (Crew)"
+ 0:20:32 "CLEANUP: Deleted 8 Loot Piles out of 151"
+ 0:20:36 "infiSTAR.de fnc_AdminFirstReq: [1,B 1-1-B:1 (Casey) REMOTE,[5187.04,2365.93,0]]"
+ 0:20:36 "infiSTAR.de fnc_AdminReqProceed: [1,B 1-1-B:1 (Casey) REMOTE,[5187.04,2365.93,0]]"
+ 0:20:36 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey Teleport to [5187.04,2365.93,0](@051129)"
+ 0:21:00 "infiSTAR.de fnc_AdminFirstReq: [1,B 1-1-B:1 (Casey) REMOTE,[4426.68,2358.96,0]]"
+ 0:21:00 "infiSTAR.de fnc_AdminReqProceed: [1,B 1-1-B:1 (Casey) REMOTE,[4426.68,2358.96,0]]"
+ 0:21:01 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey Teleport to [4426.68,2358.96,0](@044130)"
+ 0:21:35 "CLEANUP: Deleted 2 Loot Piles out of 143"
+ 0:21:55 "infiSTAR.de fnc_AdminFirstReq: [1,B 1-1-B:1 (Casey) REMOTE,[3761.17,2344.31,0]]"
+ 0:21:55 "infiSTAR.de fnc_AdminReqProceed: [1,B 1-1-B:1 (Casey) REMOTE,[3761.17,2344.31,0]]"
+ 0:21:55 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey Teleport to [3761.17,2344.31,0](@037130)"
+ 0:23:19 "CLEANUP: Deleted 1 Animals out of 4"
+ 0:23:20 "TIME SYNC: Local Time set to [2015,7,18,9,23]"
+ 0:23:30 "DZAI Monitor :: Server Uptime: 0:55:30. Active AI Groups: 28."
+ 0:23:30 "DZAI Monitor :: Static Spawns: 2. Respawn Queue: 3 groups queued."
+ 0:23:30 "DZAI Monitor :: Dynamic Spawns: 0. Random Spawns: 0. Air Patrols: 8. Land Patrols: 20."
+ 0:24:26 "infiSTAR.de fnc_AdminFirstReq: [-2,B 1-1-B:1 (Casey) REMOTE,17b3f040# 1067358: uh1h.p3d]"
+ 0:24:26 "infiSTAR.de fnc_AdminReqProceed: [-2,B 1-1-B:1 (Casey) REMOTE,17b3f040# 1067358: uh1h.p3d]"
+ 0:24:26 "DELETE: 76561198134898961 Deleted by UID: "
+ 0:24:26 "infiSTAR.de PVAH_WriteLog: B 1-1-B:1 (Casey) REMOTE   Casey (76561198134898961) deleted UH1H_DZ @038129 - characterID any - objectID:  - objectUID: "
+ 0:24:47 "CLEANUP: Deleted 4 Loot Piles out of 179"

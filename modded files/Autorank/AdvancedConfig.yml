@@ -1,0 +1,123 @@
+#############################################################################
+#                                                                           #
+#                   Autorank 2 Advanced Config                              #
+#                                                                           #
+#   Please use the SimpleConfig unless you know what you are doing and      #
+#   need functionality that the SimpleConfig doesn't provide.               #
+#                                                                           #
+#############################################################################
+
+use advanced config: true
+# all other advanced settings are ignored if this is set to false
+
+afk integration: true
+# If a compatible AFK plugin is found autorank will not count online time for AFK players
+# This option is always on when using the SimpleConfig
+# Currently supports: Essentials
+
+use partial completion: true
+# When this is true, players can use /ar complete # to complete a requirement at any moment they like.
+# When this is false, players will only be able to /ar check and check for all requirements at one time. They would need to have all requirements at that moment.
+
+interval check: 5
+# This is the interval between checks of Autorank (in minutes).
+# Lowering this number will increase accuracy but will also increase server lag.
+
+leaderboard layout: '&6&r | &b&p - &7&d day(s), &h hour(s) and &m minute(s).'
+leaderboard length: 5
+# changes the appearance of the /ar leaderboard command
+# &r : Ranking in the leaderboard
+# &p : Player name
+# &m : Minutes (with full days and full hours not counted)
+# &h : Hours (with full days not counted)
+# &d : Days
+# &tm : Total amount of minutes
+# &th : Total amount of hours
+
+ranks:
+    guest:
+        requirements:
+            time:
+                value: 1h
+        results:
+            rank change: guest;member
+            command: 'say &p just got a promotion; broadcast &p has just been promoted to Member!'
+            message: 'Congratulations, you are now a member.'
+    member:
+        requirements:
+            time:
+                value: 2d
+        results:
+            rank change: member;active
+            command: 'say &p has just been promoted to An Active Member!'
+            message: 'Congratulations, you are now an Active Member.'
+    active:
+        requirements:
+            time:
+                value: 4d
+        results:
+            rank change: active;experienced
+            command: 'say &p just got a promotion; broadcast &p has just been promoted to an Active Member!'
+            message: 'Congratulations, you are now an Experianced Member.'
+    experienced:
+        requirements:
+            time:
+                value: 6d
+        results:
+            rank change: 
+            command: 'say &p just got a promotion; broadcast &p has just been promoted to an Experienced Member!'
+            message: 'Congratulations, you are now an Experienced Member.'
+            
+# new requirements and results can be added by other plugins that hook into the Autorank API
+# these are the ones that are included in the main plugin:
+# 
+#   requirements:
+#       time: 1d 1h 1m
+#       exp: 20 (level)
+#       money: 2000 (requires vault ! Player has to have at least this amount of money)
+#       world: world_nether (player has to be in this world to get ranked)
+#       gamemode: 1 (player has to have a certain gamemode, 0 = Survival mode, 1 = Creative mode, 2 = Adventure mode)
+#       has item: id(;amount;data) (checks the players inventory for the item)
+#       blocks broken: id(;amount;data) (a player has to have broken x amount blocks of item id and data) (Requires Stats) (when no data or amount is given, it will check total blocks)
+#       Example: break 10 magenta wool would be: 'blocks broken: 35;10;2' 35 = itemid, 10 = amount, 2 = damagevalue
+#       blocks placed: id(;amount;data) (a player has to have placed x amount blocks of item id and data) (Requires Stats) (when no data or amount is given, it will check total blocks)
+#       votes: 10 (player has to have voted at least 10 times) (Requires Stats and Votifier)
+#       damage taken: 10 (player has to have taken 10 damage) (damage is not counted in hearts) (Requires Stats)
+#       mobs killed: 5;spider (player has to have killed 5 spiders) (if no entity is specified, then any kill counts) (Requires Stats) (for a list of entities: http://jd.bukkit.org/rb/apidocs/org/bukkit/entity/EntityType.html)
+#       location: x;y;z;world;radius (player has to be in a location or within its radius)
+#       faction power: 10 (Amount of power a faction has to have) (Requires Factions)
+#       players killed: 10 (Player has to kill at least 10 players) (Requires Stats)
+#       global time: 10d 1h 5m (Player has to be online for at least 10 days, 1 hour and 5 mins) (Global time is the accumulated time over all servers you have connected the MySQL database with)
+#       total time: 50d 1h (Player has to be with this server for at least 50 days and 1 hour) (The time from when the player joined for the first time is the reference point. This means that when a player has joined 3 weeks ago, his 'total time' = 3 weeks)
+#       blocks moved: 1000;0 (Player has to move at least an x amount of blocks. Second argument is what kind of movement: 0=walk, 1=boat, 2=train, 3=pig, 4=pig in train, 5=horse) (Need Stats for this)
+#       worldguard region: TestRegion (Player has to be in a certain WorldGuard region) (requires WorldGuard)
+#       mcmmo skill level: 100;mining (Player has to have at least level 100 in mining) (requires McMMO)
+#
+#   results:
+#       rank change: new-rank
+#       rank change: old-rank; new-rank
+#       rank change: old-rank; new-rank; world (only works for permissions plugins that support this)
+#       message: 'You got ranked up'
+#       command: 'say &p hi; give &p 1 100'(executes a console command. &p will be replaced by the player name) You can perform more commands with the ';' sign.
+#       effect: STEP_SOUND;8 (first argument is the effect name, second is the effect data. For a list of possible effects go to http://jd.bukkit.org/rb/doxygen/d8/db9/enumorg_1_1bukkit_1_1Effect.html)
+#       tp: x;y;z;world;yaw;pitch (tp: 0;0;0;world_nether;1.0;2.0)
+
+sql:
+    enabled: false
+    hostname: localhost:3306
+    username: root
+    password: ''
+    database: minecraft
+    table: autorank
+#   
+#   
+
+auto-updater:
+
+#   When check-for-new-versions is true, Autorank will tell you when a new version is available.
+    check-for-new-versions: false
+    
+#   When auto-download is true, Autorank will automatically download the most recent version    
+    auto-download: false    
+
+#   

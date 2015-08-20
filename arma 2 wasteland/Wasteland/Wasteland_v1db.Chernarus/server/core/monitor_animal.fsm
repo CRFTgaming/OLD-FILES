@@ -1,0 +1,100 @@
+/*%FSM<COMPILE "D:\Bohemia Interactive\Tools\FSM Editor Personal Edition\scriptedFSM.cfg, Animal Spawner">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"init_",0,250,-40.348839,-141.279068,49.651161,-91.279068,0.000000,"init" \n ""};
+item1[] = {"_",8,218,-39.333668,-69.522606,50.666332,-19.522623,0.000000,""};
+item2[] = {"first_spawn",2,250,-39.333664,17.903633,50.666351,67.903625,0.000000,"first spawn"};
+item3[] = {"check",4,218,-38.588924,104.536453,51.411396,154.536469,0.000000,"check"};
+item4[] = {"spawn",2,4346,-38.604755,187.121841,51.395309,237.121841,0.000000,"spawn"};
+link0[] = {0,1};
+link1[] = {1,2};
+link2[] = {2,3};
+link3[] = {3,4};
+link4[] = {4,3};
+globals[] = {0.000000,0,0,0,0,640,480,1,10,6316128,1,-409.391052,409.390564,313.390259,-174.546494,1032,615,1};
+window[] = {0,-1,-1,-32000,-32000,820,443,1883,60,1,1050};
+*//*%FSM</HEAD>*/
+class FSM
+{
+  fsmName = "Animal Spawner";
+  class States
+  {
+    /*%FSM<STATE "init_">*/
+    class init_
+    {
+      name = "init_";
+      init = /*%FSM<STATEINIT""">*/"private[""_timeNow""];" \n
+       "" \n
+       "_timeNow = time;" \n
+       "_val = 60 * 15;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "_">*/
+        class _
+        {
+          priority = 0.000000;
+          to="first_spawn";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "first_spawn">*/
+    class first_spawn
+    {
+      name = "first_spawn";
+      init = /*%FSM<STATEINIT""">*/"[] execFSM ""CA\modules\Animals\Data\fsms\Animals_main.fsm"";" \n
+       "" \n
+       "diag_log(""Server: Spawning first set of animals"");" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "check">*/
+        class check
+        {
+          priority = 0.000000;
+          to="spawn";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"((time - _timeNow) > _val) AND isServer"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "spawn">*/
+    class spawn
+    {
+      name = "spawn";
+      init = /*%FSM<STATEINIT""">*/"[] execFSM ""CA\modules\Animals\Data\fsms\Animals_main.fsm"";" \n
+       "_timeNow = time;" \n
+       "" \n
+       "diag_log(""Server: Spawning Animals"");"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "check">*/
+        class check
+        {
+          priority = 0.000000;
+          to="spawn";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"((time - _timeNow) > _val) AND isServer"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+  };
+  initState="init_";
+  finalStates[] =
+  {
+  };
+};
+/*%FSM</COMPILE>*/

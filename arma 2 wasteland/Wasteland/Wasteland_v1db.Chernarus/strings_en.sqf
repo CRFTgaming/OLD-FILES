@@ -1,0 +1,14 @@
+STR_MISSION_MARKER_1 = "Large Ammo Cache";
+STR_MISSION_TEXT_1 = "A gear cache has been dropped. Its location is on the map. If you have no map, get one.";
+STR_MISSION_MARKER_2 = "Crash Site";
+STR_MISSION_TEXT_2 = "A US aircraft has crashed! Check the map for its location, and check it out!";
+STR_MISSION_MARKER_3 = "Abandoned Base";
+STR_MISSION_TEXT_3 = "An abandoned base has been located and marked on your map. Go and secure it!";
+STR_MISSION_MARKER_4 = "Helicopter Site";
+STR_MISSION_TEXT_4 = "A helicopter has been spotted in the area, check it out!";
+STR_MISSION_MARKER_5 = "Recover Fuel Truck";
+STR_MISSION_TEXT_5 = "A fuel truck has been seen in the area, go and secure it.. May be useful for future objectives!";
+STR_MISSION_MARKER_6 = "Money Stash";
+STR_MISSION_TEXT_6 = "A stash of money has been dropped in a zone, find it first and come out rich!.";
+STR_MISSION_MARKER_7 = "Recover Bomb";
+STR_MISSION_TEXT_7 = "A group of raiders have a bomb in their possession, recover it!";

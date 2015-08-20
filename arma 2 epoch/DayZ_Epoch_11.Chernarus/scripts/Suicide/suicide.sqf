@@ -1,0 +1,15 @@
+private ["_Secondary"];
+ canAbort = true;
+ _Secondary = currentWeapon player;
+ player addEventHandler ["fired", {if (alive player) then { player SetDamage 1.1;};}];
+ cutText [format["You think about how Hard this Server is... 10 Seconds"], "PLAIN DOWN"];
+ sleep 4;
+ cutText [format["and how you are too Wimpy to handle it... 6 Seconds"], "PLAIN DOWN"];
+ sleep 4;
+ cutText [format["You just can't play with the Big boys... 2 Seconds"], "PLAIN DOWN"];
+ sleep 2;
+ cutText [format["Goodbye Server.... its back to Minecraft for me!!"], "PLAIN DOWN"];
+ canAbort = false;
+ player playmove "ActsPercMstpSnonWpstDnon_suicide1B";
+ sleep 8.4;
+ player fire _Secondary;

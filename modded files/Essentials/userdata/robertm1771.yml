@@ -1,0 +1,28 @@
+timestamps:
+  login: 1421486171308
+  logout: 1421491355340
+  lastteleport: 1421489612799
+ipAddress: 24.112.175.245
+logoutlocation:
+  world: world
+  x: -1281.7985007032685
+  y: 70.0
+  z: 1167.1500878716508
+  yaw: -179.37817
+  pitch: 16.05004
+nickname: §3Larry
+lastlocation:
+  world: world
+  x: -1467.39763705782
+  y: 111.11463400578373
+  z: 899.3810167709586
+  yaw: -87.7681
+  pitch: 54.062332
+homes:
+  home:
+    world: world
+    x: -1289.4004311712908
+    y: 69.0
+    z: 1163.7466553554293
+    yaw: -179.6875
+    pitch: 11.031842

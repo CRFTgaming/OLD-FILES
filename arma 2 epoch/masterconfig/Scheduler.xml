@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<Scheduler>
+
+<!-- this job will start after 10 minutes and run forever with a 1 hour and 30 minutes interval between the jobs -->
+<job id='0'>
+<day>1,2,3,4,5,6,7</day>
+<start>003000</start>
+<runtime>003000</runtime>
+<loop>-1</loop>
+<cmd>say -1 This server restarts every 3 hours of uptime - type !upt to see running time</cmd>
+</job>
+
+<!-- this job will start after 30 seconds and will only run once. note that the runtime tag is ignored when loop is 0 -->
+<job id='1'>
+<day>1,2,3,4,5,6,7</day>
+<start>003200</start>
+<runtime>003000</runtime>
+<loop>-1</loop>
+<cmd>say -1 TEAMSPEAK IP  --  TS.GRIMMLIFE.COM</cmd>
+</job>
+
+<!-- this job will start after 15 seconds and will run every 25 sec. total times the message will be show is 6 times -->
+<job id='2'>
+<day>1,2,3,4,5,6,7</day>
+<start>003500</start>
+<runtime>003000</runtime>
+<loop>-1</loop>
+<cmd>say -1 THERE IS NO KILLING IN ANY SAFE ZONE OR SPAWN ZONE OR REBEL SPAWN</cmd>
+</job>
+
+
+<!-- this job will start at 06:00:00 (6 am) and will only run once a day at set time -->
+<job id='3'>
+<day>1,2,3,4,5,6,7</day>
+<start>003300</start>
+<runtime>003000</runtime>
+<loop>0</loop>
+<cmd>say -1 REBELS ARE NOT ALLOWED TO DECLARE WAR MORE THAN ONCE EVERY 30 MINUTES</cmd>
+</job>
+
+<!-- this job will start at 07:00:00 (7 am) and will repeat itself every 20 min for 3 more time. in total 4 times. will run at set time for defined days -->
+<job id='4'>
+<day>1,2,3,4,5,6,7</day>
+<start>000400</start>
+<runtime>003000</runtime>
+<loop>-1</loop>
+<cmd>say -1 Try adding   -malloc=system   to your ARMA launch parameters to help with steam ticket fails</cmd>
+</job>
+
+<!-- this job will start at 08:00:00 (8 am) and will repeat itself every 15 min forever for defined days -->
+<job id='5'>
+<day>1,2,3,4,5,6,7</day>
+<start>020000</start>
+<runtime>020000</runtime>
+<loop>0</loop>
+<cmd>say -1 RESTART IN ONE HOUR</cmd>
+</job>
+<job id='6'>
+<day>1,2,3,4,5,6,7</day>
+<start>023000</start>
+<runtime>023000</runtime>
+<loop>0</loop>
+<cmd>say -1 RESTART IN 30 MINUTES -- RESTART IN 30 MINUTES</cmd>
+</job>
+<job id='7'>
+<day>1,2,3,4,5,6,7</day>
+<start>025000</start>
+<runtime>025000</runtime>
+<loop>0</loop>
+<cmd>say -1 RESTART IN 10 MINUTES - START PREPARING TO LOG OUT</cmd>
+</job>
+<job id='8'>
+<day>1,2,3,4,5,6,7</day>
+<start>025500</start>
+<runtime>025500</runtime>
+<loop>0</loop>
+<cmd>say -1 RESTART IN 5 MINUTES - START PREPARING TO LOG OUT</cmd>
+</job>
+<job id='9'>
+<day>1,2,3,4,5,6,7</day>
+<start>025800</start>
+<runtime>025800</runtime>
+<loop>0</loop>
+<cmd>say -1 RESTART IN 2 MINUTES - SAVE GEAR AND LOG OUT</cmd>
+</job>
+<job id='10'>
+<day>1,2,3,4,5,6,7</day>
+<start>025900</start>
+<runtime>030000</runtime>
+<loop>0</loop>
+<cmd>say -1 RESTART IN 1 MINUTE - SAVE GEAR AND LOG OUT</cmd>
+</job>
+<job id='11'>
+<day>1,2,3,4,5,6,7</day>
+<start>030000</start>
+<runtime>030000</runtime>
+<loop>0</loop>
+<cmd>D:\arma3serverconfig\stopserver.bat</cmd>
+</job>
+
+</Scheduler>

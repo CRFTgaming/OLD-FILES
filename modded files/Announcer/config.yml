@@ -1,0 +1,12 @@
+announcement:
+  enabled: true
+  random: true
+  prefix: '&6[CRFT Gaming Announcement]&3 '
+  interval: 100
+  check-for-updates: true
+  auto-update: false
+  messages:
+  - Welcome to CRFT Gaming Please enjoy your stay
+  - Please follow the rules and enjoy
+  - Come join us on 104.143.14.10:9035
+  - If you have any Questions please dont hesitate to ask 

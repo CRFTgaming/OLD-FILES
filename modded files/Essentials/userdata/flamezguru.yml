@@ -1,0 +1,33 @@
+timestamps:
+  login: 1421498801275
+  logout: 1421496737210
+  lastteleport: 1421499783835
+  kits:
+    dtools: 1421489569692
+ipAddress: 219.89.219.139
+godmode: true
+nickname: §3Flamez
+logoutlocation:
+  world: world
+  x: -1295.1983443413426
+  y: 79.0
+  z: 1166.3837953284515
+  yaw: 248.95569
+  pitch: 49.60051
+afk: false
+lastlocation:
+  world: world
+  x: -1374.643923840748
+  y: 86.0
+  z: 1096.492599866091
+  yaw: 194.23096
+  pitch: 36.422394
+money: '99750.0'
+homes:
+  me:
+    world: world
+    x: -1476.1777295254278
+    y: 102.0
+    z: 897.0205303296616
+    yaw: 270.45825
+    pitch: 0.8621273
